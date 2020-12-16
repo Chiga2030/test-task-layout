@@ -2,6 +2,8 @@
   --color-dark: #1b191a;
   --color-light: #fff2e9;
   --main-bg-color: #fff2e9;
+  --main-font-regular: normal normal 400 1em "gilroy", sans-serif;
+  --main-font-bold: normal normal 700 1em "gilroy", sans-serif;
 }
 
 .training {

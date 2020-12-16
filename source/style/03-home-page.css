@@ -1,0 +1,88 @@
+.home-page {}
+
+.home-page__main-header {
+  margin: auto;
+  text-align: center;
+  width: 47em;
+}
+
+.main-header__title {
+  margin: 0 0 .3em;
+}
+
+.main-title {
+  font: var(--main-font-bold);
+  font-size: 3.75em;
+  line-height: 1.2;
+}
+
+.main-subtitle {
+  font-size: 1.56em;
+  margin: 0;
+}
+
+.main-content-wrapper {
+  display: flex;
+}
+
+.main-bubbles {
+}
+
+.bubble {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.bubble_paper {
+  height: 135px;
+  width: 171px;
+  background: no-repeat center/contain url(../img/buble-paper.svg);
+  transform: rotate(-15deg) translate(-0.6em, 1.2em);
+}
+
+.bubble_pension {
+  height: 181px;
+  width: 203px;
+  background: no-repeat center/contain url(../img/buble-pension.svg);
+  transform: rotate(-15deg) translate(1.8em, -1.8em);
+}
+
+.bubble__text_pension {
+  width: 100px;
+}
+
+.bubble_salary {
+  height: 181px;
+  width: 203px;
+  background: no-repeat center/contain url(../img/buble-salary.svg);
+  transform: rotate(-15deg) translate(-1.2em, -5.5em);
+}
+
+.bubble__text_salary {
+  width: 150px;
+}
+
+.bubble_collective {
+  height: 184px;
+  width: 166px;
+  background: no-repeat center/contain url(../img/buble-collective.svg);
+  transform: rotate(42deg) translate(-4.7em, -3.6em);
+}
+
+.bubble__text_collective {
+  width: 150px;
+}
+
+.peoples {
+  width: 34.375em;
+  height: 34.5em;
+  background: no-repeat bottom/contain url(../img/peoples.svg);
+  border: 1px solid red;
+}
+
+.main-sidebar {
+
+}
