@@ -1,0 +1,9 @@
+:root {
+  --color-dark: #1b191a;
+  --color-light: #fff2e9;
+  --main-bg-color: #fff2e9;
+}
+
+.training {
+  --main-bg-color: #1b191a;
+}
