@@ -1,3 +1,44 @@
 .header {
+  align-content: center;
+  align-items: center;
   background-color: var(--main-bg-color);
+  display: flex;
+  flex-direction: row;
+  height: 6.44em;
+  margin-bottom: 2.9em;
 }
+.header-inner {
+  display: flex;
+  margin: 0 3.125em;
+  width: 100%;
+}
+
+.header__menu {
+  align-self: center;
+  margin-right: 15.5em;
+}
+
+.menu {
+  width: 22em;
+}
+
+.menu__link {
+  margin-right: 1.7em;
+}
+
+.header__logo {
+  margin-right: 34.5em;
+}
+
+.logo {
+  background: no-repeat center/cover url(../img/logo.svg);
+  height: 2.6875em;
+  width: 8.75em;
+}
+
+.burger-menu {}
+.header {}
+.header__burger-menu {}
+.header__logo {}
+.menu {}
+.menu__link {}
