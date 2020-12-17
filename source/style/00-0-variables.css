@@ -7,5 +7,9 @@
 }
 
 .training {
-  --main-bg-color: #1b191a;
+  --main-bg-color: var(--color-dark);
+}
+
+.about-us {
+  --main-bg-color: var(--color-dark);
 }
