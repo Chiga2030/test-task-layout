@@ -40,9 +40,9 @@
 .lamps-right__back-lamp {
   position: absolute;
   height: 205px;
-  width: 110px;
+  width: 112px;
   background: no-repeat center/contain url(../img/lamp-right-back.png);
-  transform: translateX(12em);
+  transform: translateX(11em);
   z-index: 2;
 }
 
