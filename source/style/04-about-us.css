@@ -1,0 +1,109 @@
+.about-us {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--main-bg-color);
+  color: var(--color-light);
+  height: 990px;
+}
+
+.about-us__lamps-left,
+.about-us__lamps-right {
+  height: 600px;
+  width: 300px;
+  position: relative;
+}
+
+.lamps-left__front-lamp {
+  position: absolute;
+  height: 529px;
+  width: 113px;
+  background: no-repeat center/contain url(../img/lamp-left-front.png);
+}
+
+.lamps-left__back-lamp {
+  position: absolute;
+  height: 161px;
+  width: 100px;
+  background: no-repeat center/contain url(../img/lamp-left-back.png);
+  transform: translateX(4em);
+  z-index: 2;
+}
+
+.lamps-right__front-lamp {
+  position: absolute;
+  height: 448px;
+  width: 98px;
+  background: no-repeat center/contain url(../img/lamp-right-front.png);
+  transform: translateX(6.5em);
+}
+
+.lamps-right__back-lamp {
+  position: absolute;
+  height: 205px;
+  width: 110px;
+  background: no-repeat center/contain url(../img/lamp-right-back.png);
+  transform: translateX(12em);
+  z-index: 2;
+}
+
+.about-us__about-header {
+  padding-top: 8.2em;
+}
+
+.about-header__lable {
+  color: var(--color-brown);
+  transform: rotate(-20deg) translateX(-.5em);
+  display: inline-block;
+  font-size: .85em;
+}
+
+.about-header {
+  letter-spacing: 0.07em;
+  line-height: 1.25;
+  margin: auto;
+  transform: translateX(0.4em);
+  width: 47.8em;
+}
+
+.about-header__title {
+  font-size: 3em;
+  margin-bottom: 0;
+}
+
+.about-header__title_dark {
+  color: var(--color-brown);
+}
+
+.about-header__title_light {
+  color: var(--color-light);
+}
+
+.about-us__description {
+  font-size: 1.2em;
+  font-weight: 300;
+  width: 32.75em;
+  margin: auto;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+  transform: translateY(-0.5em);
+}
+
+.about-us__description:first-child {
+  margin-bottom: 2.5em;
+}
+
+.about-us__description:last-child {
+  margin-bottom: 1.4em;
+}
+
+.about-us__description_lead {
+  color: var(--color-brown);
+}
+
+.about-us__description_bold {
+  font-weight: 700;
+}
+
+.about-us__description_last-paragraph {
+  margin-bottom: 4em;
+}
