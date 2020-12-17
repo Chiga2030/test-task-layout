@@ -23,7 +23,9 @@
 }
 
 .menu__link {
+  color: var(--color-dark);
   margin-right: 1.7em;
+  text-decoration: none;
 }
 
 .header__logo {
