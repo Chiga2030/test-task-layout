@@ -1,15 +1,17 @@
 :root {
+  --color-brown: #cb9e88;
   --color-dark: #1b1919;
   --color-light: #fff2e9;
   --main-bg-color: #fff2e9;
-  --main-font-regular: normal normal 400 1em "gilroy", sans-serif;
   --main-font-bold: normal normal 700 1em "gilroy", sans-serif;
-}
-
-.training {
-  --main-bg-color: var(--color-dark);
+  --main-font-regular: normal normal 400 1em "gilroy", sans-serif;
 }
 
 .about-us {
+  --color-light: #fff;
+  --main-bg-color: var(--color-dark);
+}
+
+.training {
   --main-bg-color: var(--color-dark);
 }
