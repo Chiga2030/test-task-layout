@@ -1,4 +1,6 @@
-.home-page {}
+.home-page {
+  overflow: hidden;
+}
 
 .home-page__main-header {
   margin: auto;
@@ -7,13 +9,13 @@
 }
 
 .main-header__title {
-  margin: 0 0 .3em;
+  margin: 0 0 .45em;
 }
 
 .main-title {
   font: var(--main-font-bold);
   font-size: 3.75em;
-  line-height: 1.2;
+  line-height: 1.1;
 }
 
 .main-subtitle {
@@ -26,6 +28,8 @@
 }
 
 .main-bubbles {
+  width: 15em;
+  height: 33.6em;
 }
 
 .bubble {
@@ -70,17 +74,30 @@
   width: 166px;
   background: no-repeat center/contain url(../img/buble-collective.svg);
   transform: rotate(42deg) translate(-4.7em, -3.6em);
+  position: absolute;
 }
 
 .bubble__text_collective {
   width: 150px;
 }
 
+.peoples-wrapper__schedule {}
+
+.schedule {
+  height: 31.3em;
+  width: 46.5em;
+  background: no-repeat bottom/contain url(../img/shedule.svg);
+  /*border: 1px solid red;*/
+}
+
 .peoples {
   width: 34.375em;
-  height: 34.5em;
+  height: 33.8em;
+  /*height: 34.6em;*/
   background: no-repeat bottom/contain url(../img/peoples.svg);
-  border: 1px solid red;
+  /*border: 1px solid red;*/
+  transform: translate(10.35em, .8em);
+  position: absolute;
 }
 
 .main-sidebar {
