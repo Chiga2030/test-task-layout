@@ -13,7 +13,6 @@
 }
 
 .main-title {
-  font: var(--main-font-bold);
   font-size: 3.75em;
   line-height: 1.1;
 }
@@ -28,23 +27,23 @@
 }
 
 .main-bubbles {
+  height: 33.9em;
   width: 15em;
-  height: 33.6em;
 }
 
 .bubble {
-  display: flex;
   align-content: center;
   align-items: center;
+  display: flex;
   justify-content: center;
   text-align: center;
 }
 
 .bubble_paper {
-  height: 135px;
-  width: 171px;
   background: no-repeat center/contain url(../img/buble-paper.svg);
+  height: 135px;
   transform: rotate(-15deg) translate(-0.6em, 1.2em);
+  width: 171px;
 }
 
 .bubble__text_paper {
@@ -53,10 +52,10 @@
 }
 
 .bubble_pension {
-  height: 181px;
-  width: 203px;
   background: no-repeat center/contain url(../img/buble-pension.svg);
+  height: 181px;
   transform: rotate(-15deg) translate(1.8em, -1.8em);
+  width: 203px;
 }
 
 .bubble__text_pension {
@@ -65,10 +64,10 @@
 }
 
 .bubble_salary {
-  height: 181px;
-  width: 203px;
   background: no-repeat center/contain url(../img/buble-salary.svg);
+  height: 181px;
   transform: rotate(-15deg) translate(-1.2em, -5.5em);
+  width: 203px;
 }
 
 .bubble__text_salary {
@@ -77,11 +76,11 @@
 }
 
 .bubble_collective {
-  height: 184px;
-  width: 166px;
   background: no-repeat center/contain url(../img/buble-collective.svg);
-  transform: rotate(42deg) translate(-4.7em, -3.6em);
+  height: 184px;
   position: absolute;
+  transform: rotate(42deg) translate(-4.7em, -3.6em);
+  width: 166px;
 }
 
 .bubble__text_collective {
@@ -92,24 +91,20 @@
 .peoples-wrapper__schedule {}
 
 .schedule {
+  background: no-repeat bottom/contain url(../img/shedule.svg);
   height: 31.3em;
   width: 46.5em;
-  background: no-repeat bottom/contain url(../img/shedule.svg);
-  /*border: 1px solid red;*/
 }
 
 .peoples {
-  width: 34.375em;
-  height: 33.8em;
-  /*height: 34.6em;*/
   background: no-repeat bottom/contain url(../img/peoples.svg);
-  /*border: 1px solid red;*/
-  transform: translate(10.35em, .8em);
+  height: 33.8em;
   position: absolute;
+  transform: translate(10.35em, .8em);
+  width: 34.375em;
 }
 
 .main-sidebar {
-  /*border: 1px solid red;*/
   display: flex;
   flex-flow: wrap;
   width: 27em;
@@ -122,29 +117,29 @@
 }
 
 .nav-button_training {
-  width: 194px;
-  height: 194px;
   background: no-repeat bottom/contain url(../img/btn-training.svg);
+  height: 194px;
   transform: translate(3.1em, 3.3em);
+  width: 194px;
 }
 
 .nav-button_articles {
-width: 153px;
-  height: 153px;
   background: no-repeat bottom/contain url(../img/btn-articles.svg);
+  height: 153px;
   transform: translate(4.4em, 0.3em);
+  width: 153px;
 }
 
 .nav-button_about-us {
-width: 116px;
-  height: 116px;
   background: no-repeat bottom/contain url(../img/btn-about-us.svg);
+  height: 116px;
   transform: translate(5.6em, 2.4em);
+  width: 116px;
 }
 
 .nav-button_cases {
-  width: 158px;
-  height: 158px;
   background: no-repeat bottom/contain url(../img/btn-cases.svg);
+  height: 158px;
   transform: translate(8.8em, -2.4em);
+  width: 158px;
 }
