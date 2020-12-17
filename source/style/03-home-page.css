@@ -47,6 +47,11 @@
   transform: rotate(-15deg) translate(-0.6em, 1.2em);
 }
 
+.bubble__text_paper {
+  transform: translateX(0.4em);
+  width: 6.8em;
+}
+
 .bubble_pension {
   height: 181px;
   width: 203px;
@@ -55,7 +60,8 @@
 }
 
 .bubble__text_pension {
-  width: 100px;
+  transform: translate(0.4em, .2em);
+  width: 6.8em;
 }
 
 .bubble_salary {
@@ -66,7 +72,8 @@
 }
 
 .bubble__text_salary {
-  width: 150px;
+  transform: translate(0.4em, 0.3em);
+  width: 8em;
 }
 
 .bubble_collective {
@@ -78,7 +85,8 @@
 }
 
 .bubble__text_collective {
-  width: 150px;
+  transform: translate(-0.1em, -0.9em);
+  width: 8em;
 }
 
 .peoples-wrapper__schedule {}
@@ -101,5 +109,42 @@
 }
 
 .main-sidebar {
+  /*border: 1px solid red;*/
+  display: flex;
+  flex-flow: wrap;
+  width: 27em;
+}
 
+.nav-button {
+  border-radius: 50%;
+  border: 0;
+  font-size: 1em;
+}
+
+.nav-button_training {
+  width: 194px;
+  height: 194px;
+  background: no-repeat bottom/contain url(../img/btn-training.svg);
+  transform: translate(3.1em, 3.3em);
+}
+
+.nav-button_articles {
+width: 153px;
+  height: 153px;
+  background: no-repeat bottom/contain url(../img/btn-articles.svg);
+  transform: translate(4.4em, 0.3em);
+}
+
+.nav-button_about-us {
+width: 116px;
+  height: 116px;
+  background: no-repeat bottom/contain url(../img/btn-about-us.svg);
+  transform: translate(5.6em, 2.4em);
+}
+
+.nav-button_cases {
+  width: 158px;
+  height: 158px;
+  background: no-repeat bottom/contain url(../img/btn-cases.svg);
+  transform: translate(8.8em, -2.4em);
 }
