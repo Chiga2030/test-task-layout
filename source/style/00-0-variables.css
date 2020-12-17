@@ -12,6 +12,10 @@
   --main-bg-color: var(--color-dark);
 }
 
+.about-author {
+  --color-brown: #d3a58d;
+}
+
 .training {
   --main-bg-color: var(--color-dark);
 }

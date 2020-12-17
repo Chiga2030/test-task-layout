@@ -1,0 +1,82 @@
+.about-author {
+  height: 1205;
+}
+
+.author-content-wrapper {
+  display: flex;
+  /*flex-direction: row;*/
+  justify-content: space-around;
+}
+
+.author-main {
+  width: 24em;
+  /*border: 1px solid red;*/
+  transform: translate(-2em, 1.9em);
+}
+
+.author-main__title {
+  font-size: 4em;
+  color: var(--color-brown);
+  margin-bottom: 0;
+}
+
+.author-main__author {
+  font-size: 4em;
+  /*font-weight: 700;*/
+  margin: 0 auto .45em;
+  line-height: 1.05;
+  color: var(--color-dark);
+}
+
+.author-main__description {
+  font-weight: 700;
+  font-size: 2em;
+  letter-spacing: -0.04em;
+  margin: 0 auto 4.45em;
+}
+
+.author-achievements {
+}
+
+.author-achievements__general-achievement {
+  line-height: 1.14;
+}
+
+.general-achievement {}
+
+.general-achievement__title {
+  font-size: 3em;
+  letter-spacing: 0.02em;
+  margin: 0 auto 0.1em;
+}
+
+.general-achievement__description {
+  margin: 0 auto 2.1em;
+  font-size: 1.3em;
+  line-height: 1.35;
+  letter-spacing: -0.02em;
+}
+
+
+
+
+
+.about-author_photo {
+  background: no-repeat center/contain url(../img/author-photo.png);
+  /*width: 604px;*/
+  height: 892px;
+}
+
+
+.author-main__author-achievements {}
+.author-additional-achievements {}
+.author-additional-achievements__title-image {}
+.author-additional-achievements__additional-achievement {}
+.additional-achievement {}
+.additional-achievement__title {}
+.additional-achievement__list {}
+.additional-achievement__list-item {}
+.additional-achievement__description {}
+.additional-achievement__description_dark-and-bold {}
+.additional-achievement__lable_logo-bm {}
+.additional-achievement__before_logo-vk {}
