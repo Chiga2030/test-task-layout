@@ -1,6 +1,17 @@
 @font-face {
   font-family: gilroy;
   src:
+    url('./Gilroy-Light.woff2') format('woff2'),
+    url('./Gilroy-Light.woff') format('woff'),
+    url('./Gilroy-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: gilroy;
+  src:
     url('./Gilroy-Medium.woff2') format('woff2'),
     url('./Gilroy-Medium.woff') format('woff'),
     url('./Gilroy-Medium.ttf') format('truetype');
