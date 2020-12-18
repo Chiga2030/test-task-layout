@@ -14,7 +14,7 @@ const path = {
     },
     fonts: 'source/fonts/',
     script: 'source/**/*.js',
-    img: 'source/img/*',
+    img: 'source/img/**/*',
   },
   clean: 'build/**',
 };
