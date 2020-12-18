@@ -2,6 +2,7 @@
   --color-brown: #cb9e88;
   --color-dark: #1b1919;
   --color-light: #fff2e9;
+  --color-salmon: #e9856f;
   --main-bg-color: #fff2e9;
   --main-font-bold: normal normal 700 1em "gilroy", sans-serif;
   --main-font-regular: normal normal 400 1em "gilroy", sans-serif;
@@ -18,4 +19,8 @@
 
 .training {
   --main-bg-color: var(--color-dark);
+}
+
+.training .training-card {
+  --main-bg-color: var(--color-light);
 }
