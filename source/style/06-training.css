@@ -125,7 +125,9 @@
 .training-card__arrow_button {
   align-self: stretch;
   background: no-repeat center/.875em 1.75em url(../img/arrow.svg);
-  border-left: 1px solid var(--color-dark);
-  border: 0;
+  border-bottom: none;
+  border-left: 2px solid var(--color-dark);
+  border-right: none;
+  border-top: none;
   width: 100%;
 }
