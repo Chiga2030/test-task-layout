@@ -42,12 +42,12 @@
 .bubble_paper {
   background: no-repeat center/contain url(../img/buble-paper.svg);
   height: 135px;
-  transform: rotate(-15deg) translate(-0.6em, 1.2em);
+  transform: rotate(-15deg) translate(-.6em, 1.2em);
   width: 171px;
 }
 
 .bubble__text_paper {
-  transform: translateX(0.4em);
+  transform: translateX(.4em);
   width: 6.8em;
 }
 
@@ -59,7 +59,7 @@
 }
 
 .bubble__text_pension {
-  transform: translate(0.4em, .2em);
+  transform: translate(.4em, .2em);
   width: 6.8em;
 }
 
@@ -71,7 +71,7 @@
 }
 
 .bubble__text_salary {
-  transform: translate(0.4em, 0.3em);
+  transform: translate(.4em, .3em);
   width: 8em;
 }
 
@@ -84,11 +84,9 @@
 }
 
 .bubble__text_collective {
-  transform: translate(-0.1em, -0.9em);
+  transform: translate(-.1em, -.9em);
   width: 8em;
 }
-
-.peoples-wrapper__schedule {}
 
 .schedule {
   background: no-repeat bottom/contain url(../img/shedule.svg);
@@ -126,7 +124,7 @@
 .nav-button_articles {
   background: no-repeat bottom/contain url(../img/btn-articles.svg);
   height: 153px;
-  transform: translate(4.4em, 0.3em);
+  transform: translate(4.4em, .3em);
   width: 153px;
 }
 

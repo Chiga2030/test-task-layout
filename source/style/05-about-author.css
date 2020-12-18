@@ -4,7 +4,7 @@
 
 .author-content-wrapper {
   display: flex;
-  height: 76.5em;
+  height: 76.65em;
   justify-content: space-around;
 }
 
@@ -29,23 +29,18 @@
 .author-main__description {
   font-size: 2em;
   font-weight: 700;
-  letter-spacing: -0.04em;
+  letter-spacing: -.04em;
   margin: 0 auto 4.45em;
-}
-
-.author-achievements {
 }
 
 .author-achievements__general-achievement {
   line-height: 1.14;
 }
 
-.general-achievement {}
-
 .general-achievement__title {
   color: var(--color-brown);
   font-size: 3em;
-  letter-spacing: 0.02em;
+  letter-spacing: .02em;
   margin: 0 auto .1em;
 }
 
@@ -54,12 +49,12 @@
 }
 
 .general-achievement__title_small {
-  font-size: 0.7em;
+  font-size: .7em;
 }
 
 .general-achievement__description {
   font-size: 1.3em;
-  letter-spacing: -0.02em;
+  letter-spacing: -.02em;
   line-height: 1.35;
   margin: 0 auto 2.1em;
 }
@@ -70,7 +65,7 @@
   height: 892px;
   margin: 0;
   position: absolute;
-  transform: translateX(-0.9em);
+  transform: translateX(-.9em);
   width: 604px;
 }
 
@@ -83,24 +78,24 @@
 }
 
 .additional-achievement__title {
-  font-size: 2em;
   color: var(--color-brown);
-  margin: 0 auto 0.35em;
+  font-size: 2em;
   letter-spacing: -.04em;
+  margin: 0 auto .35em;
   transform: translateX(1em);
 }
 
 .additional-achievement {
-  transform: translateX(-0.7em);
   line-height: 1.34;
   margin-bottom: 3.3em;
+  transform: translateX(-.7em);
 }
 
 .additional-achievement__list {
-  margin: 0 auto 4em;
-  transform: translateX(0.5em);
-  letter-spacing: 0.03em;
+  letter-spacing: .03em;
   line-height: 1.5;
+  margin: 0 auto 4em;
+  transform: translateX(.5em);
   width: 16em;
 }
 
@@ -110,19 +105,19 @@
 }
 
 .additional-achievement__list-item::before {
-  content: '';
-  height: 0.375em;
-  width: .375em;
   background: no-repeat center/cover url(../img/list-item.svg);
+  content: '';
+  height: .375em;
   position: absolute;
-  transform: translate(-0.9em, 0.5em);
+  transform: translate(-.9em, .5em);
+  width: .375em;
 }
 
 .additional-achievement__description {
-  margin: auto;
-  transform: translate(1.1em, -0.3em);
-  letter-spacing: 0.02em;
+  letter-spacing: .02em;
   line-height: 1.5;
+  margin: auto;
+  transform: translate(1.1em, -.3em);
 }
 
 .additional-achievement__description_dark-and-bold {
@@ -140,13 +135,10 @@
 }
 
 .additional-achievement__before_logo-vk::before {
-  content: '';
-  height: 0.5em;
-  width: 0.875em;
   background: no-repeat center/cover url(../img/VK-logo.svg);
+  content: '';
+  height: .5em;
   position: absolute;
-  transform: translate(-1.1em, 0.6em) rotate(-16deg);
+  transform: translate(-1.1em, .6em) rotate(-16deg);
+  width: .875em;
 }
-
-.author-main__author-achievements {}
-.author-additional-achievements__additional-achievement {}
