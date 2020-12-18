@@ -1,4 +1,131 @@
 .training {
   background-color: var(--main-bg-color);
   color: var(--color-light);
+  padding: 5.8em 0 7.6em;
+}
+
+.training__inner-content {
+  margin: auto;
+  width: 73.75em;
+}
+
+.header-regular {
+  margin: 0 auto .5em;
+}
+
+.header-regular__title-regular {
+  font-size: 4em;
+  margin: 0 auto .45em;
+}
+
+.header-regular__subtitle-regular {
+  font-size: 1.5em;
+  margin: 0 auto 3em;
+}
+
+.training-card {
+  background: var(--main-bg-color);
+  border-radius: 5px 0 0 5px;
+  color: var(--color-dark);
+  display: flex;
+  height: 17.6em;
+  margin: 1.15em auto;
+}
+
+.training-card__image-block {
+  align-self: center;
+  width: 21.85em;
+}
+
+.training-card__image-block_picture-main {
+  height: 14em;
+}
+
+.training-card__image-block_picture-1 {
+  background: no-repeat center/contain url(../img/training-card/training-card-1.svg);
+}
+
+.training-card__image-block_picture-2 {
+  background: no-repeat center/contain url(../img/training-card/training-card-2.svg);
+}
+
+.training-card__image-block_picture-3 {
+  background: no-repeat center/contain url(../img/training-card/training-card-3.svg);
+}
+
+.training-card__image-block_picture-4 {
+  background: no-repeat center/contain url(../img/training-card/training-card-4.svg);
+}
+
+.training-card__image-block_picture-5 {
+  background: no-repeat center/contain url(../img/training-card/training-card-5.svg);
+}
+
+.training-card__image-block_picture-6 {
+  background: no-repeat center/contain url(../img/training-card/training-card-6.svg);
+}
+
+.training-card__image-block_picture-7 {
+  background: no-repeat center/contain url(../img/training-card/training-card-7.svg);
+}
+
+.training-card__card-body {
+  position: relative;
+  width: 46.6em;
+}
+
+.card-body__card-header {
+  margin-bottom: 1em;
+  padding-top: 2.3em;
+}
+
+.card-header__tag {
+  padding-right: .75em;
+}
+
+.card-header__tag:not(:first-child) {
+  padding-left: .75em;
+}
+
+.card-header__tag:not(:last-child) {
+  border-right: 1px solid #00000026;
+}
+
+.card-body__card-title {
+  font-size: 2.49em;
+  line-height: 1.2;
+  margin: 0 auto .3em;
+}
+
+.card-body__card-title_acsent {
+  color: var(--color-salmon);
+}
+
+.card-body__card-lead-text {
+  line-height: 1.5;
+  margin: 0 auto 2.2em;
+  width: 47em;
+}
+
+.card-footer {
+  bottom: 1.9em;
+  position: absolute;
+}
+
+.card-footer__card-link {
+  color: var(--color-salmon);
+}
+
+.training-card__arrow {
+  align-items: stretch;
+  display: flex;
+  width: 5.3em;
+}
+
+.training-card__arrow_button {
+  align-self: stretch;
+  background: no-repeat center/.875em 1.75em url(../img/arrow.svg);
+  border-left: 1px solid var(--color-dark);
+  border: 0;
+  width: 100%;
 }
