@@ -1,7 +1,7 @@
 .training {
   background-color: var(--main-bg-color);
   color: var(--color-light);
-  padding: 5.8em 0 7.6em;
+  padding: 6.1em 0 7.6em;
 }
 
 .training__inner-content {
@@ -9,18 +9,23 @@
   width: 73.75em;
 }
 
+.training__header-regular {
+  margin-bottom: 4.4em;
+}
+
 .header-regular {
-  margin: 0 auto .5em;
+  /*margin: auto;*/
 }
 
 .header-regular__title-regular {
   font-size: 4em;
-  margin: 0 auto .45em;
+  margin: 0 auto .35em;
 }
 
 .header-regular__subtitle-regular {
   font-size: 1.5em;
-  margin: 0 auto 3em;
+  margin: auto;
+  line-height: 1.4;
 }
 
 .training-card {

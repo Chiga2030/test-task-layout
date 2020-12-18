@@ -1,0 +1,108 @@
+.cases {
+  padding: 6.2em 0 7.6em;
+}
+
+.cases__inner-content {
+  margin: auto;
+  width: 73.75em;
+}
+
+.cases-row {
+  display: grid;
+  grid-template-columns: repeat(3, 25em);
+  grid-row-gap: 1em;
+  margin-bottom: 2.9em;
+}
+
+.cases__header-regular {
+  margin-bottom: 3.8em;
+}
+
+.case-header__image {
+  height: 16.3125em;
+  width: 23.75em;
+  margin-bottom: 1.5em;
+}
+
+.case-header__image_case-1 {
+  background: no-repeat center/contain url(../img/cases/case-1.jpg);
+}
+
+.case-header__image_case-2 {
+  background: no-repeat center/contain url(../img/cases/case-2.jpg);
+}
+
+.case-header__image_case-3 {
+  background: no-repeat center/contain url(../img/cases/case-3.jpg);
+}
+
+.case-header__image_case-4 {
+  background: no-repeat center/contain url(../img/cases/case-4.jpg);
+}
+
+.case-header__image_case-5 {
+  background: no-repeat center/contain url(../img/cases/case-5.jpg);
+}
+
+.case-header {
+  margin-bottom: 0.6em;
+}
+
+.case-header__date-publick {
+  font-size: 0.75em;
+  color: var(--color-salmon);
+}
+
+.case__case-lead-text {
+  font-size: 1.25em;
+  font-weight: 700;
+  line-height: 1.4;
+  margin: 0 auto .85em;
+}
+
+.case-footer {
+  display: flex;
+  align-items: center;
+}
+
+.case-footer__button {
+  background: var(--color-dark);
+  height: 3.1em;
+  width: 9.45em;
+  border-radius: 50px;
+  color: var(--color-light);;
+  margin-right: 3.95em;
+}
+
+.case-footer__video-review {
+  /*width: 400px;*/
+  display: flex;
+  align-items: center;
+}
+
+.case-footer__video-review::before {
+  content: '';
+  height: 1.7em;
+  width: 1.7em;
+  background: no-repeat center/contain url(../img/play-button.svg);
+  position: absolute;
+  margin-left: -2em;
+}
+
+.case {}
+.case-double {}
+.case-double-footer {}
+.case-double-footer__button {}
+.case-double-header {}
+.case-double-header__date-publick {}
+.case-double__case-double-footer {}
+.case-double__case-double-header {}
+.case-double__case-double-lead-text {}
+.case__case-footer {}
+.case__case-header {}
+.cases-wrapper {}
+.header-regular {}
+.header-regular__subtitle-regular {}
+.header-regular__title-regular {}
+.subtitle-regular_dark {}
+.title-regular_dark {}
