@@ -66,3 +66,22 @@
   margin-right: 3.95em;
   width: 9.45em;
 }
+
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .articles {
+    padding: 1em 0 4em;
+  }
+
+  .articles__inner-content {
+    width: 57em;
+  }
+
+  .articles-row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .article-header__image {
+    width: 28em;
+  }
+}

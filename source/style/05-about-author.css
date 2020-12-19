@@ -63,11 +63,11 @@
 .about-author_photo {
   align-self: flex-end;
   background: no-repeat bottom/contain url(../img/author-photo.png);
-  height: 892px;
+  height: 55.75em;
   margin: 0;
   position: absolute;
   transform: translateX(-.9em);
-  width: 604px;
+  width: 37.75em;
 }
 
 .author-additional-achievements {
@@ -142,4 +142,86 @@
   position: absolute;
   transform: translate(-1.1em, .6em) rotate(-16deg);
   width: .875em;
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .about-author {
+    height: 50em;
+  }
+
+  .author-content-wrapper {
+    height: 51.3em;
+  }
+
+  .author-main__title {
+    font-size: 3em;
+  }
+
+  .author-main__author {
+    font-size: 3em;
+  }
+
+  .author-main__description {
+    font-size: 1.5em;
+    margin: 0 0 4.45em; 
+    width: 12em;
+  }
+
+  .author-achievements__general-achievement {
+    line-height: 1;
+  }
+
+  .general-achievement__title {
+    font-size: 2.3em;
+  }
+
+  .general-achievement__description {
+    font-size: 1em;
+  }
+
+  .about-author_photo {
+    height: 38em;
+    width: 33.75em;
+  }
+
+  .author-additional-achievements {
+    transform: translate(4.7em, 4em);
+  }
+
+  .additional-achievement__title {
+    font-size: 1.5em;
+    margin: 0 0 .35em;
+    width: 10em;
+  }
+
+  .additional-achievement__list {
+    transform: translateX(0);
+  }
+
+  .additional-achievement__list-item {
+    font-size: 1em;
+  }
+
+  .additional-achievement__description {
+    line-height: 1.3;
+    transform: translate(1.1, -.3em);
+  }
+
+  .additional-achievement__description_dark-and-bold {
+    font-size: 1.4em;
+    margin: 0;
+    width: 10em;
+  }
+
+  .additional-achievement__lable_logo-bm {
+    transform: translate(15em, -6.2em);
+  }
+
+  .additional-achievement__before_logo-vk {
+    margin-left: 1.1em;
+  }
+
+  .additional-achievement__before_logo-vk::before {
+    transform: translate(-1.1em, .4em) rotate(-16deg);
+  }
 }

@@ -1,7 +1,3 @@
-.home-page {
-  overflow: hidden;
-}
-
 .home-page__main-header {
   margin: auto;
   text-align: center;
@@ -41,9 +37,9 @@
 
 .bubble_paper {
   background: no-repeat center/contain url(../img/buble-paper.svg);
-  height: 135px;
+  height: 8.4375em;
   transform: rotate(-15deg) translate(-.6em, 1.2em);
-  width: 171px;
+  width: 10.6875em;
 }
 
 .bubble__text_paper {
@@ -53,9 +49,9 @@
 
 .bubble_pension {
   background: no-repeat center/contain url(../img/buble-pension.svg);
-  height: 181px;
+  height: 11.3125em;
   transform: rotate(-15deg) translate(1.8em, -1.8em);
-  width: 203px;
+  width: 12.6875em;
 }
 
 .bubble__text_pension {
@@ -65,9 +61,9 @@
 
 .bubble_salary {
   background: no-repeat center/contain url(../img/buble-salary.svg);
-  height: 181px;
+  height: 11.3125em;
   transform: rotate(-15deg) translate(-1.2em, -5.5em);
-  width: 203px;
+  width: 12.6875em;
 }
 
 .bubble__text_salary {
@@ -77,10 +73,10 @@
 
 .bubble_collective {
   background: no-repeat center/contain url(../img/buble-collective.svg);
-  height: 184px;
+  height: 11.5em;
   position: absolute;
   transform: rotate(42deg) translate(-4.7em, -3.6em);
-  width: 166px;
+  width: 10.375em;
   z-index: 3;
 }
 
@@ -112,7 +108,6 @@
 .nav-button {
   border-radius: 50%;
   border: 0;
-  font-size: 1em;
 }
 
 .nav-button_training {
@@ -141,4 +136,65 @@
   height: 158px;
   transform: translate(8.8em, -2.4em);
   width: 158px;
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .main-title {
+    font-size: 3em;
+  }
+
+  .main-subtitle {
+    font-size: 1em;
+  }
+
+  .main-bubbles {
+    height: 27em;
+    width: 12em;
+  }
+
+  .bubble_paper {
+    transform: rotate(-15deg) translate(-.6em, 0) scale(.8);
+  }
+
+  .bubble_pension {
+    transform: rotate(-15deg) translate(1.8em, -4em) scale(0.8);
+  }
+
+  .bubble_salary {
+    transform: rotate(-15deg) translate(-1.2em, -9em) scale(0.8);
+  }
+
+  .bubble_collective {
+    transform: rotate(42deg) translate(-10.7em, -7.6em) scale(0.7);
+  }
+
+  .schedule {
+    height: 25em;
+  }
+
+  .peoples {
+    transform: translate(2em, .8em) scale(0.7);
+    width: 34.375em;
+    height: 31.5em;
+  }
+
+  .main-sidebar {
+    width: 35em;
+  }
+
+  .nav-button_training {
+    transform: translate(0, 3.3em) scale(0.7);
+  }
+
+  .nav-button_articles {
+    transform: translate(0em, .3em) scale(0.7);
+  }
+
+  .nav-button_about-us {
+    transform: translate(0em, 2.4em) scale(0.7);
+  }
+
+  .nav-button_cases {
+    transform: translate(0em, -2.4em) scale(0.7);
+  }
 }

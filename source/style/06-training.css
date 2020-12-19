@@ -132,3 +132,54 @@
   border-top: none;
   width: 100%;
 }
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .training {
+    padding: 4em 0 4em;
+  }
+
+  .training__inner-content {
+    width: 57em;
+  }
+
+  .training__header-regular {
+    margin-bottom: 3em;
+  }
+
+  .header-regular__title-regular {
+    font-size: 3.5em;
+    margin: 0 auto .1em;
+  }
+
+  .header-regular__subtitle-regular {
+    font-size: 1.2em;
+    line-height: 1.4;
+  }
+
+  .training-card {
+    height: 15em;
+  }
+
+  .training-card__image-block_picture-main {
+    height: 12em;
+  }
+
+  .training-card__card-body {
+    width: 33em;
+  }
+
+  .card-body__card-header {
+    font-size: .8em;
+    margin-bottom: 0.8em;
+    padding-top: 1.2em;
+  }
+
+  .card-body__card-title {
+    font-size: 2em;
+    line-height: 1;
+  }
+
+  .card-body__card-lead-text {
+    width: 33em;
+  }
+}

@@ -10,17 +10,13 @@
 
 .header-inner {
   display: flex;
-  margin: 0 3.125em;
-  width: 100%;
+  justify-content: space-between;
+  padding: 0 3.1em;
+  width: 100vw;
 }
 
 .header__menu {
   align-self: center;
-  margin-right: 15.5em;
-}
-
-.menu {
-  width: 22em;
 }
 
 .menu__link {
@@ -30,11 +26,29 @@
 }
 
 .header__logo {
-  margin-right: 34.5em;
+  transform: translateX(-9.3em);
 }
 
 .logo {
-  background: no-repeat center/cover url(../img/logo.svg);
+  background: no-repeat center/contain url(../img/logo.svg);
   height: 2.6875em;
   width: 8.75em;
+}
+
+@media (max-width: 1024px) {
+  .header__menu {
+    margin-right: 3em;
+  }
+
+  .menu__link {
+    font-size: .8em;
+  }
+
+  .logo {
+    height: 1.5em;
+  }
+
+  .header {
+    height: 4em;
+  }
 }

@@ -2,6 +2,7 @@ html,
 body {
   margin: 0;
   font: var(--main-font-regular);
+  background: red;
 }
 
 .content {
@@ -12,7 +13,12 @@ body {
 
 @media (max-width: 1440px) {
   .content {
-    max-width: 1440px;
-    width: unset;
+    width: 1440px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .content {
+    width: 1024px;
   }
 }
