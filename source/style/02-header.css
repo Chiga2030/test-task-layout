@@ -39,7 +39,7 @@
   visibility: hidden;
 }
 
-@media (min-width: 1024px) and (max-width: 1439px) {  
+@media (min-width: 1024px) and (max-width: 1439px) {
   .header__menu {
     margin-right: 3em;
   }
@@ -74,7 +74,7 @@
     transform: translateX(0);
   }
 
-   .logo {
+  .logo {
     height: 1.4em;
     width: 4.6em;
   }
