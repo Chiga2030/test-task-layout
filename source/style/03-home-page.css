@@ -81,6 +81,7 @@
   position: absolute;
   transform: rotate(42deg) translate(-4.7em, -3.6em);
   width: 166px;
+  z-index: 3;
 }
 
 .bubble__text_collective {

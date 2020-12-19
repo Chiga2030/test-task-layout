@@ -6,6 +6,13 @@ body {
 
 .content {
   background-color: var(--main-bg-color);
-  width: 1440px;
   margin: auto;
+  width: 1440px;
+}
+
+@media (max-width: 1440px) {
+  .content {
+    max-width: 1440px;
+    width: unset;
+  }
 }

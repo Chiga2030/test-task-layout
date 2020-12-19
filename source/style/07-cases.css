@@ -1,0 +1,121 @@
+.cases {
+  padding: 6.2em 0 7.6em;
+}
+
+.cases__inner-content {
+  margin: auto;
+  width: 73.75em;
+}
+
+.cases-row {
+  display: grid;
+  grid-row-gap: 1em;
+  grid-template-columns: repeat(3, 25em);
+  margin-bottom: 2.9em;
+}
+
+.cases__header-regular {
+  margin-bottom: 3.8em;
+}
+
+.case-header__image {
+  height: 16.3125em;
+  margin-bottom: 1.5em;
+  width: 23.75em;
+}
+
+.case-header__image_case-1 {
+  background: no-repeat center/contain url(../img/cases/case-1.jpg);
+}
+
+.case-header__image_case-2 {
+  background: no-repeat center/contain url(../img/cases/case-2.jpg);
+}
+
+.case-header__image_case-3 {
+  background: no-repeat center/contain url(../img/cases/case-3.jpg);
+}
+
+.case-header__image_case-4 {
+  background: no-repeat center/contain url(../img/cases/case-4.jpg);
+}
+
+.case-header__image_case-5 {
+  background: linear-gradient(-16deg, var(--color-salmon), #0000), no-repeat center/cover url(../img/cases/case-5.jpg);
+}
+
+.case-header {
+  margin-bottom: .6em;
+}
+
+.case-header__date-publick {
+  color: var(--color-salmon);
+  font-size: .75em;
+}
+
+.case__case-lead-text {
+  font-size: 1.25em;
+  font-weight: 700;
+  line-height: 1.4;
+  margin: 0 auto .85em;
+}
+
+.case-footer {
+  align-items: center;
+  display: flex;
+}
+
+.case-footer__button {
+  background: var(--color-dark);
+  border-radius: 35px;
+  border: none;
+  color: var(--color-light);
+  height: 3.1em;
+  margin-right: 3.95em;
+  width: 9.45em;
+}
+
+.case-footer__video-review {
+  align-items: center;
+  display: flex;
+}
+
+.case-footer__video-review::before {
+  background: no-repeat center/contain url(../img/play-button.svg);
+  content: '';
+  height: 1.7em;
+  margin-left: -2em;
+  position: absolute;
+  width: 1.7em;
+}
+
+.cases-row_with-double {
+  grid-template-columns: 25em 2fr;
+}
+
+.case-double__body {
+  padding: 15.1em 22em 1em 1.9em;
+}
+
+.case-header__image_double-case {
+  height: 100%;
+  width: 100%;
+}
+
+.case-double-header {
+  color: var(--color-light);
+  font-size: .7em;
+}
+
+.case-double__case-double-header {
+  letter-spacing: .4px;
+  margin-bottom: 1em;
+}
+
+.case-double__case-double-lead-text {
+  color: var(--color-light);
+  font-size: 1.25em;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0 auto .65em;
+}
