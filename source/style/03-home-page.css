@@ -198,3 +198,34 @@
     transform: translate(0, -2.4em) scale(.7);
   }
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .main-bubbles,
+  .main-sidebar {
+    display: none;
+  }
+
+  .main-header {
+    width: 22em;
+  }
+
+  .main-title {
+    font-size: 1.8em;
+  }
+
+  .main-subtitle {
+    font-size: .8em;
+  }
+
+  .schedule {
+    display: flex;
+    height: 20em;
+    justify-content: center;
+  }
+
+  .peoples {
+    height: 24.5em;
+    transform: translate(0, .0) scale(.7);
+  }
+}
+

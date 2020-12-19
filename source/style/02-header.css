@@ -35,7 +35,11 @@
   width: 8.75em;
 }
 
-@media (max-width: 1024px) {
+.header__burger-menu {
+  visibility: hidden;
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {  
   .header__menu {
     margin-right: 3em;
   }
@@ -50,5 +54,32 @@
 
   .header {
     height: 4em;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .header {
+    height: 3em;
+  }
+
+  .header-inner {
+    padding: 0 2em;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .header__logo {
+    transform: translateX(0);
+  }
+
+   .logo {
+    height: 1.4em;
+    width: 4.6em;
+  }
+
+  .header__burger-menu {
+    visibility: visible;
   }
 }

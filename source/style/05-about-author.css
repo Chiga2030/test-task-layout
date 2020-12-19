@@ -60,6 +60,10 @@
   margin: 0 auto 2.1em;
 }
 
+.general-achievement__description_count-students-first {
+  display: content;
+}
+
 .about-author_photo {
   align-self: flex-end;
   background: no-repeat bottom/contain url(../img/author-photo.png);
@@ -223,5 +227,63 @@
 
   .additional-achievement__before_logo-vk::before {
     transform: translate(-1.1em, .4em) rotate(-16deg);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+/*  .about-author * {
+    display: unset;
+    transform: unset;
+  }*/
+  .about-author {
+    height: 120em;
+  }
+
+  .author-content-wrapper {
+    display: block;
+    padding: 2em 2em;
+  }
+
+  .author-main {
+    transform: unset;
+    line-height: 1.2;
+    margin-bottom: 6em;
+  }
+
+  .author-main__description {
+    font-weight: 400;
+    width: 22em;
+    font-size: 1.3em;
+    margin-bottom: 4em;
+  }
+
+  .general-achievement__description {
+    width: 22em;
+  }
+
+  .general-achievement__description_count-humans,
+  .general-achievement__description_count-students-first,
+  .general-achievement__description_count-students-third,
+  .general-achievement__description_count-money,
+  .general-achievement__description_count-school {
+    display: contents;
+  }
+
+  .author-additional-achievements {
+    transform: unset;
+  }
+
+  .additional-achievement__list {
+    margin: 0 0 4em;
+  }
+
+
+
+
+
+
+
+  .about-author_photo {
+    visibility: hidden;
   }
 }

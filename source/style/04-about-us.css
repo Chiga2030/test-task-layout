@@ -160,3 +160,26 @@
     margin-bottom: 4em;
   }
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .about-us {
+    height: 624px;
+  }
+
+  .about-us__lamps-left,
+  .about-us__lamps-right {
+    display: none;
+  }
+
+  .about-header {
+    letter-spacing: .07em;
+    line-height: 1.1;
+    margin: auto;
+    padding: 3em 2em;
+    width: 40em;
+  }
+
+  .about-header__title {
+    font-size: 1.5em;
+  }
+}
