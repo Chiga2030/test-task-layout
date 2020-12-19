@@ -157,15 +157,15 @@
   }
 
   .bubble_pension {
-    transform: rotate(-15deg) translate(1.8em, -4em) scale(0.8);
+    transform: rotate(-15deg) translate(1.8em, -4em) scale(.8);
   }
 
   .bubble_salary {
-    transform: rotate(-15deg) translate(-1.2em, -9em) scale(0.8);
+    transform: rotate(-15deg) translate(-1.2em, -9em) scale(.8);
   }
 
   .bubble_collective {
-    transform: rotate(42deg) translate(-10.7em, -7.6em) scale(0.7);
+    transform: rotate(42deg) translate(-10.7em, -7.6em) scale(.7);
   }
 
   .schedule {
@@ -173,7 +173,7 @@
   }
 
   .peoples {
-    transform: translate(2em, .8em) scale(0.7);
+    transform: translate(2em, .8em) scale(.7);
     width: 34.375em;
     height: 31.5em;
   }
@@ -183,18 +183,18 @@
   }
 
   .nav-button_training {
-    transform: translate(0, 3.3em) scale(0.7);
+    transform: translate(0, 3.3em) scale(.7);
   }
 
   .nav-button_articles {
-    transform: translate(0em, .3em) scale(0.7);
+    transform: translate(0, .3em) scale(.7);
   }
 
   .nav-button_about-us {
-    transform: translate(0em, 2.4em) scale(0.7);
+    transform: translate(0, 2.4em) scale(.7);
   }
 
   .nav-button_cases {
-    transform: translate(0em, -2.4em) scale(0.7);
+    transform: translate(0, -2.4em) scale(.7);
   }
 }
