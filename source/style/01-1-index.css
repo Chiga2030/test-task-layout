@@ -2,7 +2,7 @@ html,
 body {
   margin: 0;
   font: var(--main-font-regular);
-  background: red;
+  background: var(--main-bg-color);
 }
 
 .content {
