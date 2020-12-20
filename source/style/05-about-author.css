@@ -24,6 +24,7 @@
 .author-main__author {
   color: var(--color-dark);
   font-size: 4em;
+  font-weight: 700;
   line-height: 1.05;
   margin: 0 auto .45em;
 }
