@@ -183,3 +183,62 @@
     width: 33em;
   }
 }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .training__inner-content {
+    width: 40em;
+  }
+
+  .training-card__image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18em;
+  }
+
+  .training-card__image-block {
+    width: 13em;
+    align-self: center;
+  }
+
+  .training-card__image-block_picture-main {
+    height: 10em;
+  }
+
+  .training-card {
+    height: 13em;
+  }
+
+  .training-card__card-body {
+    width: 22em;
+  }
+
+  .card-body__card-header {
+    padding-top: 1.5em;
+  }
+
+  .card-header {
+    font-size: .8em;
+  }
+
+  .card-body__card-title {
+    font-size: 1.6em;
+    line-height: 1.1;
+    margin: 0 auto 0.4em;
+  }
+
+  .card-body__card-lead-text {
+    line-height: 1.1;
+    /* margin: 0 auto 2.2em; */
+    width: 22em;
+  }
+
+  .card-body__card-footer {
+    bottom: 1.2em;
+  }
+
+  .card-footer__card-link {
+    font-size: .8em;
+  }
+
+}
