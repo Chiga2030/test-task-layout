@@ -205,8 +205,11 @@
     transform: translate(1.1, -.3em);
   }
 
+  .additional-achievement__title_bm {
+    width: 9em;
+  }
+
   .additional-achievement__description_dark-and-bold {
-    font-size: 1.4em;
     margin: 0;
     width: 10em;
   }
@@ -224,7 +227,7 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   .about-author {
     height: 130.8em;
   }
