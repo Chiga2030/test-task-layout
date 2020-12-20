@@ -35,39 +35,10 @@
 
 .training-card__image-block {
   align-self: center;
-  width: 21.85em;
-}
-
-.training-card__image-block_picture-main {
-  height: 14em;
-}
-
-.training-card__image-block_picture-1 {
-  background: no-repeat center/contain url(../img/training-card/training-card-1.svg);
-}
-
-.training-card__image-block_picture-2 {
-  background: no-repeat center/contain url(../img/training-card/training-card-2.svg);
-}
-
-.training-card__image-block_picture-3 {
-  background: no-repeat center/contain url(../img/training-card/training-card-3.svg);
-}
-
-.training-card__image-block_picture-4 {
-  background: no-repeat center/contain url(../img/training-card/training-card-4.svg);
-}
-
-.training-card__image-block_picture-5 {
-  background: no-repeat center/contain url(../img/training-card/training-card-5.svg);
-}
-
-.training-card__image-block_picture-6 {
-  background: no-repeat center/contain url(../img/training-card/training-card-6.svg);
-}
-
-.training-card__image-block_picture-7 {
-  background: no-repeat center/contain url(../img/training-card/training-card-7.svg);
+  display: flex;
+  justify-content: center;
+  margin-right: 2.5em;
+  width: 19.25em;
 }
 
 .training-card__card-body {
@@ -160,8 +131,8 @@
     height: 15em;
   }
 
-  .training-card__image-block_picture-main {
-    height: 12em;
+  .training-card__image-block_picture {
+    height: 11em;
   }
 
   .training-card__card-body {
@@ -190,19 +161,19 @@
   }
 
   .training-card__image-wrapper {
+    align-items: center;
     display: flex;
     justify-content: center;
-    align-items: center;
     width: 18em;
   }
 
   .training-card__image-block {
+    margin: 0;
     width: 13em;
-    align-self: center;
   }
 
-  .training-card__image-block_picture-main {
-    height: 10em;
+  .training-card__image-block_picture {
+    width: 10em;
   }
 
   .training-card {
@@ -210,7 +181,7 @@
   }
 
   .training-card__card-body {
-    width: 22em;
+    width: 24em;
   }
 
   .card-body__card-header {
@@ -224,12 +195,12 @@
   .card-body__card-title {
     font-size: 1.6em;
     line-height: 1.1;
-    margin: 0 auto 0.4em;
+    margin: 0 auto .4em;
   }
 
   .card-body__card-lead-text {
     line-height: 1.1;
-    /* margin: 0 auto 2.2em; */
+    margin: 0 0 2.2em;
     width: 22em;
   }
 
@@ -240,5 +211,4 @@
   .card-footer__card-link {
     font-size: .8em;
   }
-
 }
