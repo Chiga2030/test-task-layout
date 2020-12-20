@@ -2,7 +2,6 @@
   margin: auto;
   text-align: center;
   width: 47em;
-  /*width: 47em;*/
 }
 
 .main-header__title {
@@ -96,7 +95,7 @@
   background: no-repeat bottom/contain url(../img/peoples.svg);
   height: 34.4em;
   position: absolute;
-  transform: translate(10.35em, 0.3em);
+  transform: translate(10.35em, .3em);
   width: 34.5em;
 }
 
@@ -121,7 +120,7 @@
 .nav-button_articles {
   background: no-repeat bottom/contain url(../img/btn-articles.svg);
   height: 11.5em;
-  transform: translate(5.3em, 0.3em);
+  transform: translate(5.3em, .3em);
   width: 11.5em;
 }
 
