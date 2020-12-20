@@ -28,3 +28,21 @@ body {
     width: 768px;
   }
 }
+
+@media (min-width: 425px) and (max-width: 767px) {
+  .content {
+    width: 425px;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 424px) {
+  .content {
+    width: 375px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+  .content {
+    width: 320px;
+  }
+}

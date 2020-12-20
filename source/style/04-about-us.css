@@ -166,11 +166,6 @@
     height: 624px;
   }
 
-  .about-us__lamps-left,
-  .about-us__lamps-right {
-    display: none;
-  }
-
   .about-header {
     letter-spacing: .07em;
     line-height: 1.1;
@@ -181,5 +176,62 @@
 
   .about-header__title {
     font-size: 1.5em;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 1023px) {
+  .about-us__lamps-left,
+  .about-us__lamps-right {
+    display: none;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .about-us {
+    height: auto;
+    padding-bottom: 2em 0 1em;
+  }
+
+  .about-us__mission-wrapper {
+    width: 100%;
+  }
+
+  .about-us__about-header {
+    margin: auto;
+    padding: 2em;
+  }
+
+  .about-header {
+    box-sizing: border-box;
+    margin: unset;
+    padding: 1.5em;
+    transform: unset;
+    width: 100%;
+  }
+
+  .about-header__title {
+    font-size: 1.4em;
+  }
+
+  .about-us__description-wrapper {
+    width: 100%;
+  }
+
+  .about-us__description {
+    box-sizing: border-box;
+    padding: 0 1.5em;
+    width: 100%;
+  }
+
+  .about-us__description_lead_break {
+    display: contents;
+  }
+
+  .about-us__description:first-child {
+    margin-bottom: 1em;
+  }
+
+  .about-us__description_last-paragraph {
+    margin-bottom: unset;
   }
 }

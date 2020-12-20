@@ -200,11 +200,6 @@
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
-  .main-bubbles,
-  .main-sidebar {
-    display: none;
-  }
-
   .main-header {
     width: 22em;
   }
@@ -226,5 +221,52 @@
   .peoples {
     height: 24.5em;
     transform: translate(0, 0) scale(.7);
+  }
+}
+
+@media (min-width: 320px) and (max-width: 1023px) {
+  .main-bubbles,
+  .main-sidebar {
+    display: none;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .schedule,
+  .peoples {
+    display: none;
+  }
+
+  .home-page {
+    height: auto;
+    padding-bottom: 2em;
+  }
+
+  .main-header {
+    box-sizing: border-box;
+    padding: 0 1em;
+    width: 100%;
+  }
+
+  .main-title {
+    font-size: 1.75em;
+  }
+
+  .main-subtitle {
+    font-size: .9em;
+    margin: auto;
+    width: 100%;
+    display: contents;
+    box-sizing: border-box;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+  .main-title {
+    font-size: 1.4em;
+  }
+
+  .main-subtitle {
+    font-size: .7em;
   }
 }

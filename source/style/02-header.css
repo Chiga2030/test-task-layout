@@ -57,7 +57,7 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 320px) and (max-width: 1023px) {
   .header {
     height: 3em;
   }
@@ -81,5 +81,11 @@
 
   .header__burger-menu {
     visibility: visible;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 1023px) {
+  .header {
+    margin-bottom: 2em;
   }
 }
