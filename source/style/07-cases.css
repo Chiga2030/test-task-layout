@@ -249,3 +249,84 @@
     display: none;
   }
 }
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .cases {
+    padding: 3em 0 2em;
+  }
+
+  .cases__header-regular {
+    margin-bottom: 2em;
+  }
+
+  .cases__inner-content {
+    box-sizing: border-box;
+    padding: 0 0 0 1em;
+    width: 100%;
+  }
+
+  .case {
+    background: var(--color-dark);
+    border-radius: 10px;
+    color: var(--color-light);
+    padding: 0 2em 2em;
+    width: 18em;
+  }
+
+  .case-header__date-publick {
+    display: none;
+  }
+
+  .case-header__image {
+    background-size: cover;
+    border-radius: 50%;
+    height: 10em;
+    transform: translateY(-3em);
+    width: 10em;
+  }
+
+  .case-footer__button {
+    background: var(--color-salmon);
+  }
+
+  .case-footer__video-review {
+    position: relative;
+  }
+
+  .case-footer__video-review::before {
+    background-image: url(../img/play-button-salmon.svg);
+  }
+
+  .cases-row {
+    overflow-x: scroll;
+    padding: 3em 0;
+    scrollbar-width: thin;
+  }
+
+  .cases-row::-webkit-scrollbar {
+    -webkit-appearance: none;
+    background-color: #2828287f;
+    border-radius: 8px;
+    height: .25em;
+  }
+
+  .cases-row::-webkit-scrollbar-thumb {
+    background-color: var(--color-dark);
+    border-radius: 8px;
+  }
+
+  .cases-row_with-double {
+    display: none;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+  .cases-row {
+    grid-template-columns: repeat(3, 20em);
+  }
+
+  .case {
+    padding: 0 1.5em 1em;
+    width: 15em;
+  }
+}

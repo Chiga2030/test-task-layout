@@ -1,6 +1,6 @@
 .about-author {
   height: 76.5em;
-  background: no-repeat bottom/37.7em url(../img/author-photo.png);
+  background: no-repeat 24.8em bottom/37.8em url(../img/author-photo.png);
   padding: 0 6em;
 }
 
@@ -11,7 +11,7 @@
 }
 
 .author-main {
-  transform: translate(-3em, 1.9em);
+  transform: translate(-3.4em, 2.2em);
   width: 24em;
 }
 
@@ -43,7 +43,7 @@
   color: var(--color-brown);
   font-size: 3em;
   letter-spacing: .02em;
-  margin: 0 auto .1em;
+  margin: 0 auto .05em;
 }
 
 .general-achievement__title_lower-case {
@@ -67,7 +67,7 @@
 }
 
 .author-additional-achievements {
-  transform: translate(4.7em, 10.1em);
+  transform: translate(5.1em, 10.1em);
 }
 
 .author-additional-achievements__title-image {
@@ -221,8 +221,10 @@
 
 @media (min-width: 320px) and (max-width: 1023px) {
   .about-author {
+    background-position-x: 16em;
     background-size: 18em;
     height: 130.8em;
+    padding: unset;
   }
 
   .author-content-wrapper {
@@ -291,6 +293,7 @@
 
 @media (min-width: 320px) and (max-width: 767px) {
   .about-author {
+    background-position-x: 5em;
     box-sizing: border-box;
     height: 122em;
     padding: unset;
@@ -365,6 +368,7 @@
 
 @media (min-width: 320px) and (max-width: 375px) {
   .about-author {
+    background-position-x: 1em;
     height: 118em;
   }
 
@@ -382,5 +386,12 @@
 
   .additional-achievement__lable_logo-bm {
     transform: translate(13em, -3em) scale(.7);
+  }
+}
+
+@media (min-width: 375px) and (max-width: 425px) {
+  .about-author {
+    height: 132em;
+    background-position-x: 3em;
   }
 }

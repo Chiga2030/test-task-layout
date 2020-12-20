@@ -4,14 +4,14 @@
   background-color: var(--main-bg-color);
   display: flex;
   flex-direction: row;
-  height: 6.44em;
-  margin-bottom: 2.9em;
+  height: 6.6em;
+  margin-bottom: 2.8em;
 }
 
 .header-inner {
   display: flex;
   justify-content: space-between;
-  padding: 0 3.1em;
+  padding: 0 2.6em;
   width: 100vw;
 }
 

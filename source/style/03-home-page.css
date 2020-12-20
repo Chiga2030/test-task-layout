@@ -2,15 +2,16 @@
   margin: auto;
   text-align: center;
   width: 47em;
+  /*width: 47em;*/
 }
 
 .main-header__title {
-  margin: 0 0 .45em;
+  margin: 0 0 .25em;
 }
 
 .main-title {
   font-size: 3.75em;
-  line-height: 1.1;
+  line-height: 1.2;
 }
 
 .main-subtitle {
@@ -24,7 +25,7 @@
 
 .main-bubbles {
   height: 33.9em;
-  width: 15em;
+  width: 14.45em;
 }
 
 .bubble {
@@ -38,7 +39,7 @@
 .bubble_paper {
   background: no-repeat center/contain url(../img/buble-paper.svg);
   height: 8.4375em;
-  transform: rotate(-15deg) translate(-.6em, 1.2em);
+  transform: rotate(-15deg) translate(-1em, 1.2em);
   width: 10.6875em;
 }
 
@@ -50,7 +51,7 @@
 .bubble_pension {
   background: no-repeat center/contain url(../img/buble-pension.svg);
   height: 11.3125em;
-  transform: rotate(-15deg) translate(1.8em, -1.8em);
+  transform: rotate(-15deg) translate(1.3em, -1.7em);
   width: 12.6875em;
 }
 
@@ -62,7 +63,7 @@
 .bubble_salary {
   background: no-repeat center/contain url(../img/buble-salary.svg);
   height: 11.3125em;
-  transform: rotate(-15deg) translate(-1.2em, -5.5em);
+  transform: rotate(-15deg) translate(-1.6em, -5.5em);
   width: 12.6875em;
 }
 
@@ -75,7 +76,7 @@
   background: no-repeat center/contain url(../img/buble-collective.svg);
   height: 11.5em;
   position: absolute;
-  transform: rotate(42deg) translate(-4.7em, -3.6em);
+  transform: rotate(42deg) translate(-5.1em, -3.2em);
   width: 10.375em;
   z-index: 3;
 }
@@ -88,21 +89,21 @@
 .schedule {
   background: no-repeat bottom/contain url(../img/shedule.svg);
   height: 31.3em;
-  width: 46.5em;
+  width: 46.6em;
 }
 
 .peoples {
   background: no-repeat bottom/contain url(../img/peoples.svg);
-  height: 33.8em;
+  height: 34.4em;
   position: absolute;
-  transform: translate(10.35em, .8em);
-  width: 34.375em;
+  transform: translate(10.35em, 0.3em);
+  width: 34.5em;
 }
 
 .main-sidebar {
   display: flex;
   flex-flow: wrap;
-  width: 27em;
+  width: 24em;
 }
 
 .nav-button {
@@ -112,30 +113,30 @@
 
 .nav-button_training {
   background: no-repeat bottom/contain url(../img/btn-training.svg);
-  height: 194px;
-  transform: translate(3.1em, 3.3em);
-  width: 194px;
+  height: 14.5em;
+  transform: translate(3.8em, 4em);
+  width: 14.5em;
 }
 
 .nav-button_articles {
   background: no-repeat bottom/contain url(../img/btn-articles.svg);
-  height: 153px;
-  transform: translate(4.4em, .3em);
-  width: 153px;
+  height: 11.5em;
+  transform: translate(5.3em, 0.3em);
+  width: 11.5em;
 }
 
 .nav-button_about-us {
   background: no-repeat bottom/contain url(../img/btn-about-us.svg);
-  height: 116px;
-  transform: translate(5.6em, 2.4em);
-  width: 116px;
+  height: 8.8em;
+  transform: translate(6.6em, 2.7em);
+  width: 8.8em;
 }
 
 .nav-button_cases {
   background: no-repeat bottom/contain url(../img/btn-cases.svg);
-  height: 158px;
-  transform: translate(8.8em, -2.4em);
-  width: 158px;
+  height: 12em;
+  transform: translate(10.4em, -3em);
+  width: 12em;
 }
 
 @media (min-width: 1024px) and (max-width: 1439px) {

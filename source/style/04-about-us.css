@@ -67,7 +67,7 @@
 
 .about-header__title {
   font-size: 3em;
-  margin-bottom: 0;
+  margin: .9em 0 -.1em 0;
 }
 
 .about-header__title_dark {
