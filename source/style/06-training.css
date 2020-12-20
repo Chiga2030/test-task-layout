@@ -35,39 +35,10 @@
 
 .training-card__image-block {
   align-self: center;
-  width: 21.85em;
-}
-
-.training-card__image-block_picture-main {
-  height: 14em;
-}
-
-.training-card__image-block_picture-1 {
-  background: no-repeat center/contain url(../img/training-card/training-card-1.svg);
-}
-
-.training-card__image-block_picture-2 {
-  background: no-repeat center/contain url(../img/training-card/training-card-2.svg);
-}
-
-.training-card__image-block_picture-3 {
-  background: no-repeat center/contain url(../img/training-card/training-card-3.svg);
-}
-
-.training-card__image-block_picture-4 {
-  background: no-repeat center/contain url(../img/training-card/training-card-4.svg);
-}
-
-.training-card__image-block_picture-5 {
-  background: no-repeat center/contain url(../img/training-card/training-card-5.svg);
-}
-
-.training-card__image-block_picture-6 {
-  background: no-repeat center/contain url(../img/training-card/training-card-6.svg);
-}
-
-.training-card__image-block_picture-7 {
-  background: no-repeat center/contain url(../img/training-card/training-card-7.svg);
+  display: flex;
+  justify-content: center;
+  margin-right: 2.5em;
+  width: 19.25em;
 }
 
 .training-card__card-body {
@@ -131,4 +102,197 @@
   border-right: none;
   border-top: none;
   width: 100%;
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .training {
+    padding: 4em 0 4em;
+  }
+
+  .training__inner-content {
+    width: 57em;
+  }
+
+  .training__header-regular {
+    margin-bottom: 3em;
+  }
+
+  .header-regular__title-regular {
+    font-size: 3.5em;
+    margin: 0 auto .1em;
+  }
+
+  .header-regular__subtitle-regular {
+    font-size: 1.2em;
+    line-height: 1.4;
+  }
+
+  .training-card {
+    height: 15em;
+  }
+
+  .training-card__image-block_picture {
+    height: 11em;
+  }
+
+  .training-card__card-body {
+    width: 33em;
+  }
+
+  .card-body__card-header {
+    font-size: .8em;
+    margin-bottom: .8em;
+    padding-top: 1.2em;
+  }
+
+  .card-body__card-title {
+    font-size: 2em;
+    line-height: 1;
+  }
+
+  .card-body__card-lead-text {
+    width: 33em;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .training {
+    padding: 4em 0 4.5em;
+  }
+
+  .training__inner-content {
+    width: 40em;
+  }
+
+  .training-card__image-wrapper {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 18em;
+  }
+
+  .training-card__image-block {
+    margin: 0;
+    width: 13em;
+  }
+
+  .training-card__image-block_picture {
+    width: 10em;
+  }
+
+  .training-card {
+    height: 13em;
+  }
+
+  .training-card__card-body {
+    width: 24em;
+  }
+
+  .card-body__card-header {
+    padding-top: 1.5em;
+  }
+
+  .card-header {
+    font-size: .6em;
+  }
+
+  .card-body__card-title {
+    font-size: 1.6em;
+    line-height: 1.1;
+    margin: 0 auto .4em;
+  }
+
+  .card-body__card-lead-text {
+    line-height: 1.1;
+    margin: 0 0 2.2em;
+    width: 22em;
+  }
+
+  .card-body__card-footer {
+    bottom: 1.2em;
+  }
+
+  .card-footer__card-link {
+    font-size: .8em;
+  }
+
+  .training-card__arrow {
+    width: 3.3em;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .training {
+    padding: 3em 0;
+  }
+  
+  .training__inner-content {
+    width: 100%;
+    padding: 0 1em;
+    box-sizing: border-box;
+  }
+
+  .training__header-regular {
+    margin-bottom: 1em;
+  }
+
+  .header-regular__title-regular {
+    font-size: 3.5em;
+    width: 100%;
+  }
+
+  .training-cards-wrapper {
+    width: 100%;
+  }
+
+  .training-card {
+    padding: 1em;
+    flex-direction: column;
+    height: auto;
+    border-radius: 5px;
+  }
+
+  .training-card__image-block {
+    width: 13em;
+    align-self: start;
+  }
+
+  .training-card__image-block_picture {
+    height: 10em;
+  }
+
+  .card-body {
+    width: 100%;
+  }
+
+  .card-header {
+    margin-bottom: 2em;
+  }
+
+  .card-header__tag:not(:last-child) {
+    border: none;
+  }
+
+  .card-header__tag:not(:first-child) {
+    display: block;
+    padding: 0;
+  }
+
+  .card-body__card-title {
+    font-size: 1.8em;
+    line-height: 1;
+    margin-bottom: 1em;
+  }
+
+  .card-body__card-lead-text {
+    width: 100%;
+  }
+
+  .card-footer {
+    bottom: 0;
+  }
+
+  .training-card__arrow {
+    display: none;
+  }
 }

@@ -2,6 +2,7 @@ html,
 body {
   margin: 0;
   font: var(--main-font-regular);
+  background: var(--main-bg-color);
 }
 
 .content {
@@ -12,7 +13,36 @@ body {
 
 @media (max-width: 1440px) {
   .content {
-    max-width: 1440px;
-    width: unset;
+    width: 1425px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .content {
+    width: 1024px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .content {
+    width: 768px;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
+  .content {
+    width: 425px;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 424px) {
+  .content {
+    width: 375px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+  .content {
+    width: 320px;
   }
 }
