@@ -367,7 +367,7 @@
   }
 }
 
-@media (min-width: 320px) and (max-width: 375px) {
+@media (min-width: 320px) and (max-width: 374px) {
   .about-author {
     background-position-x: 1em;
     height: 118em;
@@ -390,7 +390,7 @@
   }
 }
 
-@media (min-width: 375px) and (max-width: 425px) {
+@media (min-width: 375px) and (max-width: 424px) {
   .about-author {
     height: 130em;
     background-position-x: 3em;
