@@ -392,7 +392,7 @@
 
 @media (min-width: 375px) and (max-width: 425px) {
   .about-author {
-    height: 118em;
+    height: 130em;
     background-position-x: 3em;
   }
 }

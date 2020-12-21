@@ -321,7 +321,7 @@
 }
 
 @media (min-width: 375px) and (max-width: 424px) {
-    .cases-row {
+  .cases-row {
     grid-template-columns: repeat(3, 21em);
   }
 
