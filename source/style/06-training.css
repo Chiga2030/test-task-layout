@@ -2,6 +2,7 @@
   background-color: var(--main-bg-color);
   color: var(--color-light);
   padding: 6.1em 0 7.6em;
+  transform: translateY(-.1em);
 }
 
 .training__inner-content {

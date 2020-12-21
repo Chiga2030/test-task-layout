@@ -67,7 +67,7 @@
 
 .about-header__title {
   font-size: 3em;
-  margin: .9em 0 -.1em 0;
+  margin: .9em 0 0 0;
 }
 
 .about-header__title_dark {
@@ -141,11 +141,11 @@
   }
 
   .about-us__description:first-child {
-    margin-bottom: 2.5em;
+    margin: .5em 0 2.5em 3.6em;
   }
 
   .about-us__description:last-child {
-    margin-bottom: 1.4em;
+    margin: .5em 0 1.4em 3.6em;
   }
 
   .about-us__description_lead {
