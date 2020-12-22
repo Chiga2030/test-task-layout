@@ -395,4 +395,8 @@
     height: 130em;
     background-position-x: 3em;
   }
+
+  .additional-achievement__description_dark-and-bold_real-vk {
+    font-size: .9em;
+  }
 }
