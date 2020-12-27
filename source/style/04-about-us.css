@@ -48,6 +48,7 @@
 
 .about-us__about-header {
   padding-top: 8.2em;
+  margin: auto;
 }
 
 .about-header__lable {
@@ -60,7 +61,6 @@
 .about-header {
   letter-spacing: .07em;
   line-height: 1.25;
-  margin: auto;
   transform: translateX(.4em);
   width: 47.8em;
 }
@@ -166,11 +166,14 @@
     height: 624px;
   }
 
+  .about-us__about-header {
+    margin: auto;
+    padding: 3em 2em;
+  }
+
   .about-header {
     letter-spacing: .07em;
     line-height: 1.1;
-    margin: auto;
-    padding: 3em 2em;
     width: 40em;
   }
 
@@ -189,7 +192,6 @@
 @media (min-width: 320px) and (max-width: 767px) {
   .about-us {
     height: auto;
-    padding-bottom: 2em 0 1em;
   }
 
   .about-us__mission-wrapper {
@@ -197,14 +199,12 @@
   }
 
   .about-us__about-header {
-    margin: auto;
-    padding: 2em;
+    margin: unset;
+    padding: 1.5em;
   }
 
   .about-header {
     box-sizing: border-box;
-    margin: unset;
-    padding: 1.5em;
     transform: unset;
     width: 100%;
   }

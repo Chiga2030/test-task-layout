@@ -13,9 +13,12 @@
   line-height: 1.2;
 }
 
+.main-header__main-subtitle {
+  margin: 0;
+}
+
 .main-subtitle {
   font-size: 1.56em;
-  margin: 0;
 }
 
 .main-content-wrapper {
@@ -239,12 +242,14 @@
 
   .home-page {
     height: auto;
-    padding-bottom: 2em;
+  }
+
+  .home-page__main-header {
+    padding: 0 1em;
   }
 
   .main-header {
     box-sizing: border-box;
-    padding: 0 1em;
     width: 100%;
   }
 
@@ -252,9 +257,12 @@
     font-size: 1.75em;
   }
 
+  .main-header__main-subtitle {
+    margin: auto;
+  }
+
   .main-subtitle {
     font-size: .9em;
-    margin: auto;
     width: 100%;
     display: contents;
     box-sizing: border-box;

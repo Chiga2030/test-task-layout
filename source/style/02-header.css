@@ -5,13 +5,15 @@
   display: flex;
   flex-direction: row;
   height: 6.6em;
-  margin-bottom: 2.8em;
+}
+
+.header__header-inner {
+  padding: 0 2.6em;
 }
 
 .header-inner {
   display: flex;
   justify-content: space-between;
-  padding: 0 2.6em;
   width: 100vw;
 }
 
@@ -62,8 +64,11 @@
     height: 4em;
   }
 
-  .header-inner {
+  .header__header-inner {
     padding: 0 2em;
+  }
+
+  .header-inner {
     align-items: center;
   }
 
@@ -104,11 +109,5 @@
   .header__burger-menu {
     height: 2em;
     width: 2em;
-  }
-}
-
-@media (min-width: 320px) and (max-width: 1023px) {
-  .header {
-    margin-bottom: 2em;
   }
 }
