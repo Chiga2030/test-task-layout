@@ -1,402 +1,101 @@
 .about-author {
-  height: 76.5em;
-  background: no-repeat 24.8em bottom/37.8em url(../img/author-photo.png);
-  padding: 0 6em;
-}
-
-.author-content-wrapper {
+  background: no-repeat 24.8em 20.7em/37.75em 55.75em url(../img/author-photo.png);
   display: flex;
-  height: 76.65em;
-  justify-content: space-around;
+  height: 73.3em;
+  justify-content: space-between;
 }
 
-.author-main {
-  transform: translate(-3.4em, 2.2em);
-  width: 24em;
+.about-author__row {
+  line-height: 1.1;
+  width: 25em;
 }
 
-.author-main__title {
-  color: var(--color-brown);
+.about-author__title {
   font-size: 4em;
-  margin-bottom: 0;
+  margin-bottom: .36em;
 }
 
-.author-main__author {
-  color: var(--color-dark);
-  font-size: 4em;
-  font-weight: 700;
-  line-height: 1.05;
-  margin: 0 auto .45em;
-}
-
-.author-main__description {
-  font-size: 2em;
-  font-weight: 700;
-  letter-spacing: -.04em;
-  margin: 0 auto 4.45em;
-}
-
-.author-achievements__general-achievement {
-  line-height: 1.14;
-}
-
-.general-achievement__title {
+.title_color-light {
   color: var(--color-brown);
-  font-size: 3em;
-  letter-spacing: .02em;
-  margin: 0 auto .05em;
 }
 
-.general-achievement__title_lower-case {
-  letter-spacing: -.028em;
+.about-author__subtitle {
+  font-size: 1.9em;
+  font-weight: 700;
+  line-height: 1.4;
+  margin: 0 0 4.65em;
 }
 
-.general-achievement__title_small {
-  font-size: .7em;
+.main-achievement__title {
+  color: var(--color-brown);
+  font-size: 3.15em;
+  margin-bottom: .03em;
 }
 
-.general-achievement__description {
-  font-size: 1.3em;
-  letter-spacing: -.02em;
-  line-height: 1.35;
-  margin: 0 auto 2.1em;
+.main-achievement__title_small {
+  font-size: .6em;
 }
 
-.general-achievement__description_count-students-second,
-.additional-achievement__title_brake-bm {
-  display: contents;
+.main-achievement__description {
+  font-size: 1.25em;
+  line-height: 1.3;
+  margin: 0;
+  width: 12em;
 }
 
-.author-additional-achievements {
-  transform: translate(5.1em, 10.1em);
+.about-author__row_right {
+  padding-top: 6.9em;
 }
 
-.author-additional-achievements__title-image {
-  margin-bottom: 1em;
+.about-author__additional-achievement {
+  margin-bottom: 4.1em;
+  padding-left: 1.1em;
 }
 
 .additional-achievement__title {
   color: var(--color-brown);
-  font-size: 2em;
-  letter-spacing: -.04em;
-  margin: 0 auto .35em;
-  transform: translateX(1em);
-  width: 9.2em;
-}
-
-.additional-achievement {
-  line-height: 1.34;
-  margin-bottom: 4.1em;
-  transform: translateX(-.7em);
+  font-size: 1.9em;
+  line-height: 1.4;
+  margin: .5em 0 .4em 0;
+  width: 9em;
 }
 
 .additional-achievement__list {
-  letter-spacing: .03em;
   line-height: 1.5;
-  margin: 0 auto 4em;
-  transform: translateX(.5em);
-  width: 16em;
-}
-
-.additional-achievement__list-item {
-  font-size: 1.2em;
   list-style: none;
+  margin: 0;
+  padding-inline-start: 0;
 }
 
-.additional-achievement__list-item::before {
-  background: no-repeat center/cover url(../img/list-item.svg);
+.additional-achievement__item {
+  font-size: 1.2em;
+  letter-spacing: .03em;
+  width: 13em;
+}
+
+.additional-achievement__item::before {
+  background: var(--color-brown);
   content: '';
-  height: .375em;
-  position: absolute;
-  transform: translate(-.9em, .5em);
-  width: .375em;
+  display: inline-block;
+  height: .3em;
+  margin-right: .5em;
+  width: .3em;
 }
 
-.additional-achievement__description_dark-and-bold {
+.title_color-dark {
   color: var(--color-dark);
 }
 
-.additional-achievement__lable_logo-bm {
+.additional-achievement__bm-logo {
   position: absolute;
-  transform: translate(18.65em, -6.2em);
+  transform: translate(16.7em, -6.3em);
 }
 
-.additional-achievement__before_logo-vk {
-  margin-left: 1.1em;
-}
-
-.additional-achievement__before_logo-vk::before {
-  background: no-repeat center/cover url(../img/VK-logo.svg);
+.additional-achievement__title_vk-logo::before {
+  background: no-repeat center/contain url(../img/VK-logo.svg);
   content: '';
-  height: .5em;
-  position: absolute;
-  transform: translate(-1.1em, .6em) rotate(-16deg);
-  width: .875em;
-}
-
-.additional-achievement__title_brake {
-  display: contents;
-}
-
-@media (min-width: 1024px) and (max-width: 1439px) {
-  .about-author {
-    background-position: 16.5em bottom;
-    background-size: 26em;
-    height: 50em;
-  }
-
-  .author-content-wrapper {
-    height: 51.3em;
-  }
-
-  .author-main__title {
-    font-size: 3em;
-  }
-
-  .author-main__author {
-    font-size: 3em;
-  }
-
-  .author-main__description {
-    font-size: 1.5em;
-    margin: 0 0 4.45em;
-    width: 12em;
-  }
-
-  .author-achievements__general-achievement {
-    line-height: 1;
-  }
-
-  .general-achievement__title {
-    font-size: 2.3em;
-  }
-
-  .general-achievement__description {
-    font-size: 1em;
-  }
-
-  .author-additional-achievements {
-    transform: translate(4.7em, 4em);
-  }
-
-  .additional-achievement__title {
-    font-size: 1.5em;
-    margin: 0 0 .35em;
-    width: 10em;
-  }
-
-  .additional-achievement__list {
-    transform: translateX(0);
-  }
-
-  .additional-achievement__list-item {
-    font-size: 1em;
-  }
-
-  .additional-achievement__description {
-    line-height: 1.3;
-    transform: translate(1.1, -.3em);
-  }
-
-  .additional-achievement__title_bm {
-    width: 9em;
-  }
-
-  .additional-achievement__description_dark-and-bold {
-    margin: 0;
-    width: 10em;
-  }
-
-  .additional-achievement__lable_logo-bm {
-    transform: translate(15em, -6.2em);
-  }
-
-  .additional-achievement__before_logo-vk {
-    margin-left: 1.1em;
-  }
-
-  .additional-achievement__before_logo-vk::before {
-    transform: translate(-1.1em, .4em) rotate(-16deg);
-  }
-}
-
-@media (min-width: 320px) and (max-width: 1023px) {
-  .about-author {
-    background-position-x: 16em;
-    background-size: 18em;
-    height: 130.8em;
-    padding: unset;
-  }
-
-  .author-content-wrapper {
-    display: block;
-    padding: 2em 2em;
-  }
-
-  .author-main {
-    line-height: 1.2;
-    margin-bottom: 6em;
-    transform: unset;
-  }
-
-  .author-main__description {
-    font-size: 1.3em;
-    font-weight: 400;
-    margin-bottom: 4em;
-    width: 22em;
-  }
-
-  .general-achievement__description {
-    width: 22em;
-  }
-
-  .general-achievement__description_count-humans,
-  .general-achievement__description_count-students-first,
-  .general-achievement__description_count-students-third,
-  .general-achievement__description_count-money,
-  .general-achievement__description_count-school,
-  .additional-achievement__title_brake-vk {
-    display: contents;
-  }
-
-  .author-additional-achievements {
-    transform: unset;
-  }
-
-  .additional-achievement__list {
-    margin: 0 0 4em;
-  }
-
-  .additional-achievement__title {
-    margin: 0 0 .35em;
-  }
-
-  .additional-achievement__title_bm {
-    width: 14em;
-  }
-
-  .additional-achievement__title_brake-bm {
-    display: unset;
-  }
-
-  .additional-achievement__lable_logo-bm {
-    transform: translate(18.65em, -3.6em);
-  }
-
-  .additional-achievement__title_vk {
-    width: 16em;
-  }
-
-  .additional-achievement__before_logo-vk::before {
-    transform: translate(-1.1em, .45em) rotate(-16deg);
-  }
-}
-
-@media (min-width: 320px) and (max-width: 767px) {
-  .about-author {
-    background-position-x: 5em;
-    box-sizing: border-box;
-    height: 122em;
-    padding: unset;
-    width: 100%;
-  }
-
-  .author-content-wrapper {
-    padding: 2em 1.5em;
-  }
-
-  .author-main {
-    width: 100%;
-  }
-
-  .author-main__title {
-    font-size: 3.5em;
-  }
-
-  .author-main__author {
-    font-size: 3.5em;
-    line-height: 1.2;
-  }
-
-  .author-main__description {
-    font-size: 1.2em;
-    width: 100%;
-  }
-
-  .author-achievements {
-    width: 100%;
-  }
-
-  .general-achievement {
-    width: 100%;
-  }
-
-  .general-achievement__title {
-    font-size: 2em;
-    width: 100%;
-  }
-
-  .general-achievement__description {
-    width: 100%;
-  }
-
-  .author-additional-achievements {
-    width: 100%;
-  }
-
-  .additional-achievement {
-    margin-bottom: 2.5em;
-    width: 100%;
-  }
-
-  .additional-achievement__title {
-    font-size: 1.9em;
-    width: 100%;
-  }
-
-  .additional-achievement__list-item {
-    font-size: 1em;
-  }
-
-  .additional-achievement__title_brake-vk {
-    display: contents;
-  }
-
-  .additional-achievement__title_brake {
-    display: unset;
-  }
-}
-
-@media (min-width: 320px) and (max-width: 374px) {
-  .about-author {
-    background-position-x: 1em;
-    height: 118em;
-  }
-
-  .author-main__title {
-    font-size: 2.8em;
-  }
-
-  .author-main__author {
-    font-size: 2.8em;
-  }
-
-  .additional-achievement__title {
-    font-size: 1.4em;
-  }
-
-  .additional-achievement__lable_logo-bm {
-    transform: translate(13em, -3em) scale(.7);
-  }
-}
-
-@media (min-width: 375px) and (max-width: 424px) {
-  .about-author {
-    height: 130em;
-    background-position-x: 3em;
-  }
-
-  .additional-achievement__description_dark-and-bold_real-vk {
-    font-size: .9em;
-  }
+  display: inline-block;
+  height: 1em;
+  transform: translate(-.1em, .2em) rotate(-16deg);
+  width: 1em;
 }
