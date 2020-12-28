@@ -1,0 +1,59 @@
+.content {
+  background-color: var(--main-bg-color);
+  margin: auto;
+  width: 1440px;
+}
+
+.content__home-page {
+  padding-top: 2.8em;
+}
+
+.content__about-author {
+  padding: 3.2em 0 0 8.3em;
+}
+
+@media (max-width: 1440px) {
+  .content {
+    width: 1425px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .content {
+    width: 1024px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .content {
+    width: 768px;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
+  .content {
+    width: 425px;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 424px) {
+  .content {
+    width: 375px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+  .content {
+    width: 320px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .content__home-page {
+    padding-bottom: 2em;
+  }
+
+  .content__about-us {
+    padding-bottom: 2em 0 1em;
+  }
+}
