@@ -75,6 +75,7 @@
 
 .additional-achievement__item::before {
   background: var(--color-brown);
+  border-radius: 50%;
   content: '';
   display: inline-block;
   height: .3em;
@@ -98,4 +99,201 @@
   height: 1em;
   transform: translate(-.1em, .2em) rotate(-16deg);
   width: 1em;
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .about-author {
+    background: no-repeat 18em 15em/25em url(../img/author-photo.png);
+    height: 49.8em;
+  }
+
+  .about-author__row {
+    width: 20em;
+  }
+
+  .about-author__title {
+    font-size: 3em;
+  }
+
+  .about-author__subtitle {
+    font-size: 1.5em;
+    margin: 0 0 2.5em;
+    width: 11em;
+  }
+
+  .main-achievement__title {
+    font-size: 2.2em;
+  }
+
+  .main-achievement__description {
+    font-size: .9em;
+  }
+
+  .about-author__row_right {
+    padding-top: 3em;
+  }
+
+  .about-author__additional-achievement {
+    margin-bottom: 2em;
+  }
+
+  .additional-achievement__title {
+    font-size: 1.5em;
+  }
+
+  .additional-achievement__item {
+    font-size: 1em;
+  }
+
+  .additional-achievement__bm-logo {
+    transform: translate(13em, -5em);
+    width: 2.5em;
+  }
+
+  .additional-achievement__title_vk-logo::before {
+    height: .8em;
+    transform: translate(.1em, .2em) rotate(-16deg);
+    width: .8em;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .about-author {
+    background: no-repeat 22em 97em/25em url(../img/author-photo.png);
+    box-sizing: border-box;
+    flex-direction: column;
+    height: auto;
+    justify-content: flex-start;
+  }
+
+  .about-author__title {
+    font-size: 4.2em;
+  }
+
+  .about-author__subtitle {
+    font-size: 2.4em;
+    margin: 0 0 2em;
+  }
+
+  .main-achievement__title {
+    font-size: 4em;
+  }
+
+  .main-achievement__description {
+    font-size: 1.7em;
+  }
+
+  .about-author__row_right {
+    padding-top: 2.5em;
+  }
+
+  .additional-achievement__title {
+    font-size: 2.2em;
+  }
+
+  .additional-achievement__item {
+    font-size: 1.4em;
+  }
+
+  .additional-achievement__bm-logo {
+    transform: translate(18em, -6.7em);
+  }
+
+  .additional-achievement__title_vk-logo::before {
+    height: .8em;
+    transform: translate(.15em, .2em) rotate(-16deg);
+    width: .8em;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .about-author {
+    background: no-repeat center 75.3em/19em url(../img/author-photo.png);
+    box-sizing: border-box;
+    flex-direction: column;
+    height: auto;
+    justify-content: flex-start;
+  }
+
+  .about-author__title {
+    font-size: 2em;
+    line-height: 1.2;
+    width: 8em;
+  }
+
+  .about-author__subtitle {
+    font-size: 1.4em;
+    line-height: 1.2;
+    margin: 0 0 1.5em;
+    width: 12em;
+  }
+
+  .main-achievement__title {
+    font-size: 2em;
+  }
+
+  .main-achievement__description {
+    font-size: 1em;
+  }
+
+  .about-author__row_right {
+    padding-top: 2em;
+  }
+
+  .about-author__additional-achievement {
+    margin-bottom: 2em;
+  }
+
+  .additional-achievement__title {
+    font-size: 1.5em;
+    margin-bottom: 0;
+    width: 13em;
+  }
+
+  .additional-achievement__item {
+    font-size: .9em;
+  }
+
+  .additional-achievement__bm-logo {
+    transform: translate(13.4em, -2em);
+    width: 2.2em;
+  }
+
+  .additional-achievement__title_vk-logo::before {
+    height: 1em;
+    transform: translate(.15em, .3em) rotate(-16deg);
+    width: 1em;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 424px) {
+  .about-author__row {
+    width: 100%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+  .about-author {
+    background: no-repeat center 66.5em/15em url(../img/author-photo.png);
+    height: auto;
+  }
+
+  .about-author__image-way {
+    width: 10em;
+  }
+
+  .additional-achievement__title {
+    font-size: 1.2em;
+    margin-bottom: 0;
+    width: 13em;
+  }
+
+  .additional-achievement__item {
+    font-size: .8em;
+  }
+
+  .additional-achievement__bm-logo {
+    transform: translate(10.8em, -1.7em);
+    width: 1.6em;
+  }
 }
