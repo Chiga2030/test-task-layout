@@ -106,8 +106,23 @@
 }
 
 .nav-button {
+  cursor: pointer;
   border-radius: 50%;
   border: 0;
+  transition:
+    transform .5s,
+    box-shadow .5s;
+}
+
+.nav-button,
+.nav-button:active,
+.nav-button:focus {
+  outline: none;
+}
+
+.nav-button:hover {
+  border: 0;
+  box-shadow: #474747 0 4px 4px;
 }
 
 .nav-button_training {
@@ -117,11 +132,19 @@
   width: 14.5em;
 }
 
+.nav-button_training:hover {
+  transform: translate(3.8em, 4em) scale(1.1);
+}
+
 .nav-button_articles {
   background: no-repeat bottom/contain url(../img/btn-articles.svg);
   height: 11.5em;
   transform: translate(5.3em, .3em);
   width: 11.5em;
+}
+
+.nav-button_articles:hover {
+  transform: translate(5.3em, .3em) scale(1.1);
 }
 
 .nav-button_about-us {
@@ -131,11 +154,19 @@
   width: 8.8em;
 }
 
+.nav-button_about-us:hover {
+  transform: translate(6.6em, 2.7em) scale(1.1);
+}
+
 .nav-button_cases {
   background: no-repeat bottom/contain url(../img/btn-cases.svg);
   height: 12em;
   transform: translate(10.4em, -3em);
   width: 12em;
+}
+
+.nav-button_cases:hover {
+  transform: translate(10.4em, -3em) scale(1.1);
 }
 
 @media (min-width: 1024px) and (max-width: 1439px) {
