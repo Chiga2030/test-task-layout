@@ -277,7 +277,7 @@
 
   .peoples {
     height: 24.5em;
-    transform: translate(0, 0) scale(.7);
+    transform: translate(0, -6.6em) scale(.7);
   }
 }
 
