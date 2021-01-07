@@ -208,7 +208,7 @@
 
 @media (min-width: 320px) and (max-width: 767px) {
   .about-author {
-    background: no-repeat center 75.3em/19em url(../img/author-photo.png);
+    background: no-repeat center 75.5em/19em url(../img/author-photo.png);
     box-sizing: border-box;
     flex-direction: column;
     height: auto;
@@ -274,7 +274,7 @@
 
 @media (min-width: 320px) and (max-width: 374px) {
   .about-author {
-    background: no-repeat center 66.5em/15em url(../img/author-photo.png);
+    background: no-repeat center 66.6em/15em url(../img/author-photo.png);
     height: auto;
   }
 
