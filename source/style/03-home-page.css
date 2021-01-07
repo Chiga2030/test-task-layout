@@ -86,17 +86,43 @@
 }
 
 .schedule {
+  animation: to-visible 1s ease-in .1s forwards;
   background: no-repeat bottom/contain url(../img/shedule.svg);
   height: 31.3em;
+  opacity: 0;
   width: 46.6em;
 }
 
+@keyframes to-visible {
+  to {
+    opacity: 1;
+  }
+}
+
 .peoples {
-  background: no-repeat bottom/contain url(../img/peoples.svg);
+  display: flex;
   height: 34.4em;
-  position: absolute;
   transform: translate(10.35em, .3em);
   width: 34.5em;
+}
+
+.peoples__people {
+  position: absolute;
+}
+
+.peoples__people_left {
+  animation: left-people 1.5s ease-out .3s forwards;
+  transform: translate(-1.9em, 12.7em);
+}
+
+@keyframes left-people {
+  to {
+    transform: translate(.1em, 11.7em);
+  }
+}
+
+.peoples__people_right {
+  transform: translate(17em, 5.3em);
 }
 
 .main-sidebar {
