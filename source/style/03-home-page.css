@@ -229,29 +229,30 @@
   }
 
   .peoples {
+    height: 31.5em;
     transform: translate(2em, .8em) scale(.7);
     width: 34.375em;
-    height: 31.5em;
   }
 
   .main-sidebar {
+    height: 28.5em;
     width: 35em;
   }
 
   .nav-button_training {
-    transform: translate(0, 3.3em) scale(.7);
+    transform: translate(0, 3.3em) scale(.6);
   }
 
   .nav-button_articles {
-    transform: translate(0, .3em) scale(.7);
+    transform: translate(10em, -11.7em) scale(.6);
   }
 
   .nav-button_about-us {
-    transform: translate(0, 2.4em) scale(.7);
+    transform: translate(-9em, 2.4em) scale(.6);
   }
 
   .nav-button_cases {
-    transform: translate(0, -2.4em) scale(.7);
+    transform: translate(9em, -13.4em) scale(.6);
   }
 }
 
