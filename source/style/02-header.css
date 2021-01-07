@@ -23,6 +23,11 @@
   color: var(--color-dark);
   margin-right: 1.7em;
   text-decoration: none;
+  transition: color .2s;
+}
+
+.menu__link:hover {
+  color: var(--color-brown);
 }
 
 .header__logo {
