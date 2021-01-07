@@ -22,11 +22,19 @@
   .content {
     width: 1024px;
   }
+
+  .content__about-author {
+    padding: 2em 0 0 5em;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
   .content {
     width: 768px;
+  }
+
+  .content__about-author {
+    padding: 0 0 0 4em;
   }
 }
 
@@ -34,17 +42,29 @@
   .content {
     width: 425px;
   }
+
+  .content__about-author {
+    padding: 2em 0 30.5em 1.5em;
+  }
 }
 
 @media (min-width: 375px) and (max-width: 424px) {
   .content {
     width: 375px;
   }
+
+  .content__about-author {
+    padding: 2em 0 30.5em 1.5em;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 374px) {
   .content {
     width: 320px;
+  }
+
+  .content__about-author {
+    padding: 2em 0 21.9em 1.5em;
   }
 }
 
