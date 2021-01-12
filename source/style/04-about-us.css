@@ -17,33 +17,61 @@
   position: absolute;
   height: 33.0625em;
   width: 7.0625em;
-  background: no-repeat center/contain url(../img/lamp-left-front.png);
+  background: no-repeat center/contain url(../img/lamps/lamp-left-front.png);
+}
+
+.lamps-left__front-lamp_light {
+  position: absolute;
+  bottom: 0;
+  width: 13em;
+  transform: translateY(2.3em);
 }
 
 .lamps-left__back-lamp {
   position: absolute;
   height: 10.0625em;
   width: 6.25em;
-  background: no-repeat center/contain url(../img/lamp-left-back.png);
+  background: no-repeat center/contain url(../img/lamps/lamp-left-back.png);
   transform: translateX(4em);
   z-index: 2;
+}
+
+.lamps-left__back-lamp_light {
+  position: absolute;
+  bottom: 0;
+  width: 9em;
+  transform: translateY(3em);
 }
 
 .lamps-right__front-lamp {
   position: absolute;
   height: 28em;
   width: 6.125em;
-  background: no-repeat center/contain url(../img/lamp-right-front.png);
+  background: no-repeat center/contain url(../img/lamps/lamp-right-front.png);
   transform: translateX(6.5em);
+}
+
+.lamps-right__front-lamp_light {
+  position: absolute;
+  bottom: 0;
+  width: 17em;
+  transform: translate(-5.8em, 5em);
 }
 
 .lamps-right__back-lamp {
   position: absolute;
   height: 12.8125em;
   width: 7em;
-  background: no-repeat center/contain url(../img/lamp-right-back.png);
+  background: no-repeat center/contain url(../img/lamps/lamp-right-back.png);
   transform: translateX(11em);
   z-index: 2;
+}
+
+.lamps-right__back-lamp_light {
+  position: absolute;
+  bottom: 0;
+  width: 8.7em;
+  transform: translate(-1em, .6em);
 }
 
 .about-us__about-header {
