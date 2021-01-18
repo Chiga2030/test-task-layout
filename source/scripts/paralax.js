@@ -16,12 +16,50 @@
 
 
 
-  let curent = window.pageYOffset;
+//   let curent = window.pageYOffset;
 
-const scrollHeight = () => {
-    if((curent + window.pageYOffset) > curent) {
-      console.log('вниз')
-    } else console.log('вверх')
+// const scrollHeight = () => {
+//     if((curent + window.pageYOffset) > curent) {
+//       console.log('вниз')
+//     } else console.log('вверх')
+//   }
+
+// window.addEventListener('scroll', scrollHeight);
+
+// console.log(window.scrollY);
+
+// document.addEventListener('scroll', (evt)=>{
+//  console.log(evt.deltaY);
+// });
+
+
+// document.addEventListener('wheel', (evt)=>{
+//   if (window.pageYOffset >= 430 && window.pageYOffset <= 840) {
+//       console.log(evt.deltaY)
+//   }
+// });
+
+
+// window.pageYOffset
+
+
+
+// const direction = () => {
+//   // document.addEventListener('scroll', upOrDown);
+//   return upOrDown()
+// }
+
+let pos = 0;
+
+const direction = () => {
+  if (window.pageYOffset > pos) {
+    console.log('go down')
+  } else console.log('go up')
+  pos = window.pageYOffset;
+}
+
+document.addEventListener('scroll', () => {
+  if (window.pageYOffset >= 430 && window.pageYOffset <= 840) {
+    return direction();
   }
-
-window.addEventListener('scroll', scrollHeight);
+});
