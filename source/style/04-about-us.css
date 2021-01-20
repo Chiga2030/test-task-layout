@@ -48,7 +48,9 @@
   background: no-repeat center/contain url(../img/lamps/lamp-right-front2.png);
   height: 47em;
   position: absolute;
-  transform: translate(6.5em, -18em);
+  transform: translateX(6.5em);
+  transform: translateY(-18em);
+  transition: transform 1s;
   width: 6.125em;
 }
 
@@ -144,6 +146,7 @@
 
   .lamps-right__front-lamp {
     transform: translateX(2em);
+    transform: translateY(-20em);
   }
 
   .lamps-right__back-lamp {
