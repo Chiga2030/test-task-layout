@@ -39,10 +39,21 @@
 }
 
 .bubble_paper {
+  animation: buble-paper 1s linear alternate-reverse infinite forwards;
   background: no-repeat center/contain url(../img/buble-paper.svg);
   height: 8.4375em;
   transform: rotate(-15deg) translate(-1em, 1.2em);
   width: 10.6875em;
+}
+
+@keyframes buble-paper {
+  from {
+    transform: rotate(-15deg) translate(-1em, 1.2em);
+  }
+
+  to {
+    transform: rotate(-10deg) translate(-1em, 1.2em);
+  }
 }
 
 .bubble__text_paper {
@@ -51,10 +62,21 @@
 }
 
 .bubble_pension {
+  animation: buble-pension 1.4s linear alternate-reverse infinite forwards;
   background: no-repeat center/contain url(../img/buble-pension.svg);
   height: 11.3125em;
   transform: rotate(-15deg) translate(1.3em, -1.7em);
   width: 12.6875em;
+}
+
+@keyframes buble-pension {
+  from {
+    transform: rotate(-15deg) translate(1.3em, -1.7em);
+  }
+
+  to {
+    transform: rotate(-20deg) translate(1.3em, -1.7em);
+  }
 }
 
 .bubble__text_pension {
@@ -63,10 +85,21 @@
 }
 
 .bubble_salary {
+  animation: buble-salary 1.2s linear alternate-reverse infinite forwards;
   background: no-repeat center/contain url(../img/buble-salary.svg);
   height: 11.3125em;
   transform: rotate(-15deg) translate(-1.6em, -5.5em);
   width: 12.6875em;
+}
+
+@keyframes buble-salary {
+  from {
+    transform: rotate(-15deg) translate(-1.6em, -5.5em);
+  }
+
+  to {
+    transform: rotate(-10deg) translate(-1.6em, -5.5em);
+  }
 }
 
 .bubble__text_salary {
@@ -75,6 +108,7 @@
 }
 
 .bubble_collective {
+  animation: buble-collective 1.4s linear alternate-reverse infinite forwards;
   background: no-repeat center/contain url(../img/buble-collective.svg);
   height: 11.5em;
   position: absolute;
@@ -83,23 +117,59 @@
   z-index: 3;
 }
 
+@keyframes buble-collective {
+  from {
+    transform: rotate(42deg) translate(-5.1em, -3.2em);
+  }
+
+  to {
+    transform: rotate(30deg) translate(-5.1em, -3.2em);
+  }
+}
+
 .bubble__text_collective {
   transform: translate(-.1em, -.9em);
   width: 8em;
 }
 
 .schedule {
+  animation: to-visible 1s ease-in .1s forwards;
   background: no-repeat bottom/contain url(../img/shedule.svg);
   height: 31.3em;
+  opacity: 0;
   width: 46.6em;
 }
 
+@keyframes to-visible {
+  to {
+    opacity: 1;
+  }
+}
+
 .peoples {
-  background: no-repeat bottom/contain url(../img/peoples.svg);
+  display: flex;
   height: 34.4em;
-  position: absolute;
   transform: translate(10.35em, .3em);
   width: 34.5em;
+}
+
+.peoples__people {
+  position: absolute;
+}
+
+.peoples__people_left {
+  animation: left-people 1.5s ease-out .3s forwards;
+  transform: translate(-1.9em, 12.7em);
+}
+
+@keyframes left-people {
+  to {
+    transform: translate(.1em, 11.7em);
+  }
+}
+
+.peoples__people_right {
+  transform: translate(17em, 5.3em);
 }
 
 .main-sidebar {
@@ -109,8 +179,22 @@
 }
 
 .nav-button {
+  cursor: pointer;
   border-radius: 50%;
   border: 0;
+  transition:
+    transform .5s,
+    box-shadow .5s;
+}
+
+.nav-button,
+.nav-button:active,
+.nav-button:focus {
+  outline: none;
+}
+
+.nav-button:hover {
+  box-shadow: #474747 0 4px 4px;
 }
 
 .nav-button_training {
@@ -120,11 +204,19 @@
   width: 14.5em;
 }
 
+.nav-button_training:hover {
+  transform: translate(3.8em, 4em) scale(1.1);
+}
+
 .nav-button_articles {
   background: no-repeat bottom/contain url(../img/btn-articles.svg);
   height: 11.5em;
   transform: translate(5.3em, .3em);
   width: 11.5em;
+}
+
+.nav-button_articles:hover {
+  transform: translate(5.3em, .3em) scale(1.1);
 }
 
 .nav-button_about-us {
@@ -134,11 +226,19 @@
   width: 8.8em;
 }
 
+.nav-button_about-us:hover {
+  transform: translate(6.6em, 2.7em) scale(1.1);
+}
+
 .nav-button_cases {
   background: no-repeat bottom/contain url(../img/btn-cases.svg);
   height: 12em;
   transform: translate(10.4em, -3em);
   width: 12em;
+}
+
+.nav-button_cases:hover {
+  transform: translate(10.4em, -3em) scale(1.1);
 }
 
 @media (min-width: 1024px) and (max-width: 1439px) {
@@ -176,29 +276,30 @@
   }
 
   .peoples {
+    height: 31.5em;
     transform: translate(2em, .8em) scale(.7);
     width: 34.375em;
-    height: 31.5em;
   }
 
   .main-sidebar {
+    height: 28.5em;
     width: 35em;
   }
 
   .nav-button_training {
-    transform: translate(0, 3.3em) scale(.7);
+    transform: translate(0, 3.3em) scale(.6);
   }
 
   .nav-button_articles {
-    transform: translate(0, .3em) scale(.7);
+    transform: translate(10em, -11.7em) scale(.6);
   }
 
   .nav-button_about-us {
-    transform: translate(0, 2.4em) scale(.7);
+    transform: translate(-9em, 2.4em) scale(.6);
   }
 
   .nav-button_cases {
-    transform: translate(0, -2.4em) scale(.7);
+    transform: translate(9em, -13.4em) scale(.6);
   }
 }
 
@@ -223,7 +324,7 @@
 
   .peoples {
     height: 24.5em;
-    transform: translate(0, 0) scale(.7);
+    transform: translate(0, -6.6em) scale(.7);
   }
 }
 

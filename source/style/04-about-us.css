@@ -1,49 +1,80 @@
 .about-us {
-  display: flex;
-  justify-content: space-between;
   background-color: var(--main-bg-color);
   color: var(--color-light);
+  display: flex;
   height: 990px;
+  justify-content: space-between;
+  overflow: hidden;
 }
 
 .about-us__lamps-left,
 .about-us__lamps-right {
   height: 37.5em;
-  width: 18.75em;
   position: relative;
+  width: 18.75em;
 }
 
 .lamps-left__front-lamp {
-  position: absolute;
+  background: no-repeat center/contain url(../img/lamps/lamp-left-front.png);
   height: 33.0625em;
+  position: absolute;
   width: 7.0625em;
-  background: no-repeat center/contain url(../img/lamp-left-front.png);
+}
+
+.lamps-left__front-lamp_light {
+  bottom: 0;
+  position: absolute;
+  transform: translateY(2.3em);
+  width: 13em;
 }
 
 .lamps-left__back-lamp {
-  position: absolute;
+  background: no-repeat center/contain url(../img/lamps/lamp-left-back.png);
   height: 10.0625em;
-  width: 6.25em;
-  background: no-repeat center/contain url(../img/lamp-left-back.png);
+  position: absolute;
   transform: translateX(4em);
+  width: 6.25em;
   z-index: 2;
+}
+
+.lamps-left__back-lamp_light {
+  bottom: 0;
+  position: absolute;
+  transform: translateY(3em);
+  width: 9em;
 }
 
 .lamps-right__front-lamp {
+  background: no-repeat center/contain url(../img/lamps/lamp-right-front2.png);
+  height: 47em;
   position: absolute;
-  height: 28em;
-  width: 6.125em;
-  background: no-repeat center/contain url(../img/lamp-right-front.png);
   transform: translateX(6.5em);
+  transform: translateY(-18em);
+  transition: transform 1s;
+  width: 6.125em;
+}
+
+.lamps-right__front-lamp_light {
+  bottom: 0;
+  position: absolute;
+  transform: translate(-5.8em, 5em);
+  width: 17em;
 }
 
 .lamps-right__back-lamp {
-  position: absolute;
+  background: no-repeat center/contain url(../img/lamps/lamp-right-back.png);
   height: 12.8125em;
-  width: 7em;
-  background: no-repeat center/contain url(../img/lamp-right-back.png);
+  position: absolute;
   transform: translateX(11em);
+  width: 7em;
   z-index: 2;
+}
+
+.lamps-right__back-lamp_light {
+  bottom: 0;
+  position: absolute;
+  transform: translate(-1em, .6em);
+  width: 8.7em;
 }
 
 .about-us__about-header {
@@ -53,9 +84,9 @@
 
 .about-header__lable {
   color: var(--color-brown);
-  transform: rotate(-20deg) translateX(-.5em);
   display: inline-block;
   font-size: .85em;
+  transform: rotate(-20deg) translateX(-.5em);
 }
 
 .about-header {
@@ -81,11 +112,11 @@
 .about-us__description {
   font-size: 1.2em;
   font-weight: 300;
-  width: 32.75em;
-  margin: auto;
   letter-spacing: .02em;
   line-height: 1.5;
+  margin: auto;
   transform: translateY(-.5em);
+  width: 32.75em;
 }
 
 .about-us__description:first-child {
@@ -115,6 +146,7 @@
 
   .lamps-right__front-lamp {
     transform: translateX(2em);
+    transform: translateY(-20em);
   }
 
   .lamps-right__back-lamp {
