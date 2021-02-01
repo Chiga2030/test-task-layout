@@ -36,10 +36,21 @@
 }
 
 .bubble_paper {
+  animation: buble-paper 1s linear alternate-reverse infinite forwards;
   background: no-repeat center/contain url(../img/buble-paper.svg);
   height: 8.4375em;
   transform: rotate(-15deg) translate(-1em, 1.2em);
   width: 10.6875em;
+}
+
+@keyframes buble-paper {
+  from {
+    transform: rotate(-15deg) translate(-1em, 1.2em);
+  }
+
+  to {
+    transform: rotate(-10deg) translate(-1em, 1.2em);
+  }
 }
 
 .bubble__text_paper {
@@ -48,10 +59,21 @@
 }
 
 .bubble_pension {
+  animation: buble-pension 1.4s linear alternate-reverse infinite forwards;
   background: no-repeat center/contain url(../img/buble-pension.svg);
   height: 11.3125em;
   transform: rotate(-15deg) translate(1.3em, -1.7em);
   width: 12.6875em;
+}
+
+@keyframes buble-pension {
+  from {
+    transform: rotate(-15deg) translate(1.3em, -1.7em);
+  }
+
+  to {
+    transform: rotate(-20deg) translate(1.3em, -1.7em);
+  }
 }
 
 .bubble__text_pension {
@@ -60,10 +82,21 @@
 }
 
 .bubble_salary {
+  animation: buble-salary 1.2s linear alternate-reverse infinite forwards;
   background: no-repeat center/contain url(../img/buble-salary.svg);
   height: 11.3125em;
   transform: rotate(-15deg) translate(-1.6em, -5.5em);
   width: 12.6875em;
+}
+
+@keyframes buble-salary {
+  from {
+    transform: rotate(-15deg) translate(-1.6em, -5.5em);
+  }
+
+  to {
+    transform: rotate(-10deg) translate(-1.6em, -5.5em);
+  }
 }
 
 .bubble__text_salary {
@@ -72,12 +105,23 @@
 }
 
 .bubble_collective {
+  animation: buble-collective 1.4s linear alternate-reverse infinite forwards;
   background: no-repeat center/contain url(../img/buble-collective.svg);
   height: 11.5em;
   position: absolute;
   transform: rotate(42deg) translate(-5.1em, -3.2em);
   width: 10.375em;
   z-index: 3;
+}
+
+@keyframes buble-collective {
+  from {
+    transform: rotate(42deg) translate(-5.1em, -3.2em);
+  }
+
+  to {
+    transform: rotate(30deg) translate(-5.1em, -3.2em);
+  }
 }
 
 .bubble__text_collective {
